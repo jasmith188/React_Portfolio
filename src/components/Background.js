@@ -5,7 +5,7 @@ import Image from "../images/something.jpg"
 
 function Background() {
     return (
-        <img className="backgroundImage" src={Image} alt={""} />
+        <img className="aboutImage" src={Image} alt={""} />
     )
 }
 
