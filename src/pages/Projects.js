@@ -1,33 +1,79 @@
 import React from 'react';
-import Image from "../images/notetaker.jpg"
-import Thumbnail from "../components/Thumbnail"
+import Image from "../images/burger.jpg"
 
 function Projects() {
   return (
-    // Render a Thumbnail component
     <div>
-      <h1>Projects</h1>
-      <Thumbnail
-        link="/twitter"
-        img className="bioPicture" src={Image} alt={"Error"} height="550px" width="470px"
-        title="NoteTaker App"
-        category="Mobile App"
-      />
-
-      {/* <Thumbnail
-        link="/airbnb"
-        image="http://airbnb-image-url.jpg>"
-        title="Airbnb Experiences"
-        category="Website"
-      />
-
-      <Thumbnail
-        link="/photoshop"
-        image="http://photoshop-image-url.jpg"
-        title="Photoshop Redesign"
-        category="Desktop App"
-      /> */}
+      <div className="row">
+        <div className="col-lg-3">
+          <div className="content">
+            <img className="notetaker" src={Image} alt={"Error"} height="150px" width="320px" />
+            <a href="https://github.com/jasmith188/Note_Taker"
+              className="github app"> NoteTaker App
+          </a>
+          </div>
+        </div>
+        <div className="col-lg-3">
+          <div className="content">
+            <img className="notetaker" src={Image} alt={"Error"} height="150px" width="320px" />
+            <a href="https://github.com/jasmith188/Note_Taker"
+              className="github app"> NoteTaker App
+          </a>
+          </div>
+        </div>
+        <div className="col-lg-3">
+          <div className="content">
+            <img className="notetaker" src={Image} alt={"Error"} height="150px" width="320px" />
+            <a href="https://github.com/jasmith188/Note_Taker"
+              className="github app"> NoteTaker App
+          </a>
+          </div>
+        </div>
+        <div className="col-lg-3">
+          <div className="content">
+            <img className="notetaker" src={Image} alt={"Error"} height="150px" width="320px" />
+            <a href="https://github.com/jasmith188/Note_Taker"
+              className="github app"> NoteTaker App
+          </a>
+          </div>
+        </div>
+      </div>
+      <div className="row">
+        <div className="col-lg-3">
+          <div className="content">
+            <img className="notetaker" src={Image} alt={"Error"} height="150px" width="320px" />
+            <a href="https://github.com/jasmith188/Note_Taker"
+              className="github app"> NoteTaker App
+          </a>
+          </div>
+        </div>
+        <div className="col-lg-3">
+          <div className="content">
+            <img className="notetaker" src={Image} alt={"Error"} height="150px" width="320px" />
+            <a href="https://github.com/jasmith188/Note_Taker"
+              className="github app"> NoteTaker App
+          </a>
+          </div>
+        </div>
+        <div className="col-lg-3">
+          <div className="content">
+            <img className="notetaker" src={Image} alt={"Error"} height="150px" width="320px" />
+            <a href="https://github.com/jasmith188/Note_Taker"
+              className="github app"> NoteTaker App
+          </a>
+          </div>
+        </div>
+        <div className="col-lg-3">
+          <div className="content">
+            <img className="notetaker" src={Image} alt={"Error"} height="150px" width="320px" />
+            <a href="https://github.com/jasmith188/Note_Taker"
+              className="github app"> NoteTaker App
+          </a>
+          </div>
+        </div>
+      </div>
     </div>
+
   )
 }
 
