@@ -14,7 +14,8 @@ const Styles = styled.div`
   color: #bbb;
   font-size: 30px;
   font-weight: bold;
-  margin: 0 1rem;
+  margin: 0 4rem;
+  padding: 3px;
 
   &:hover {
     color: white;
