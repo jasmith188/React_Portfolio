@@ -28,21 +28,33 @@ function Home() {
     <div className="homePage">
 
       <Header />
-      <div className="row">
-        <div className="col-sm-6">
-          <div className="bioPicture">
-            <Background />
-            <img className="bioPicture" src={Image} alt={"Error"} height="550px" width="470px" />
-            <div className="col-sm-6">
+      <div className="container">
+      <div className="row">  <Background/></div>
+        <div className="row">
+          
+            <div className="col-lg-6">
+              <div className="bioPicture">
+               
+                <img className="bioPicture" src={Image} alt={"Error"} height="550px" width="470px" />
+              </div>
+            </div>
+            <div className="col-lg-6">
+              <div className="card-body">
+                <div className="card-text">
+                  Hello my name is Jimmy Smith. I have just recently switched careers out of the hectic restaurant business and have pursued a new career and have become a Full Stack Web Developer
+
+              </div>
+              </div>
             </div>
           </div>
-        </div>
+        
       </div>
+
 
 
       <Footer />
 
-    </div>
+    </div >
   );
 }
 
