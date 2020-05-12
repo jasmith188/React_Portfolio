@@ -2,7 +2,7 @@ import React from "react"
  
 function Scroll(props) {
   return (
-    <div>
+    <div className="scroll">
       <h1>This is some stuff I'll write about myself</h1>
     </div>
   )

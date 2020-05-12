@@ -3,7 +3,7 @@ import Image from "../images/codebackground.jpg"
 import "../App.css"
 
 
-function Portfolio() {
+function Projects() {
     return (
         <>
         <img className="backgroundImage" src={Image} alt={"Error"} />
@@ -11,4 +11,4 @@ function Portfolio() {
     );
   }
 
-export default Portfolio;
+export default Projects;
