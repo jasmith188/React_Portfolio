@@ -1,14 +1,15 @@
 import React from "react";
-import Image from "../images/keyboard.jpg"
+import Image from "../images/citystreet.jpg"
 import "../App.css"
 
 
-function Home() {
+function Contact() {
     return (
         <>
         <img className="backgroundImage" src={Image} alt={"Error"} />
+        
       </>
     );
   }
 
-export default Home;
+export default Contact;

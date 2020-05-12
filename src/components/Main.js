@@ -1,38 +1,37 @@
-import React from "react";
-// import { BrowserRouter, Route, Link } from 'react-router-dom';
-import Projects from "./Projects";
-import Home from "./Home";
-import About from "./About";
-import Scroll from "./Scroll";
-import Footer from "./Footer";
-import Header from "./Header";
+// import React from "react";
+// // import { BrowserRouter, Route, Link } from 'react-router-dom';
+// import Projects from "../pages/Projects";
+// import Home from "../pages/Home";
+// import About from "../pages/About";
+// import Footer from "./Footer";
+// import Header from "./Header";
 
-class Main extends React.Component {
+// class Main extends React.Component {
 
-    render() {
-        return (
+//     render() {
+//         return (
 
-            <div>
-                <>
-                <Header/>
-                </>
+//             <div>
+//                 <>
+//                 <Header/>
+//                 </>
             
             
-                <Home/>
+//                 <Home/>
 
-                <Scroll></Scroll>
-                <About></About>
-                <Scroll></Scroll>
-                <Projects></Projects>
-                <Footer></Footer>
+                
+//                 <About></About>
+                
+//                 <Projects></Projects>
+//                 <Footer></Footer>
 
             
-            </div>
+//             </div>
 
-        )
-    }
+//         )
+//     }
 
 
 
-}
-export default Main;
+// }
+// export default Main;
