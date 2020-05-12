@@ -5,12 +5,14 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact"
 import NoMatch from "./pages/NoMatch"
+import Header from "./components/Header"
 
 class App extends React.Component {
 
   render() {
     return (
       <React.Fragment>
+        <Header/>
       <Router>
         <div>
           <Switch>
