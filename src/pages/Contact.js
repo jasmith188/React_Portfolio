@@ -1,18 +1,30 @@
 import React from "react";
-import Image from "../images/citystreet.jpg";
-import { Grid, Cell } from "react-mdl";
-import "../App.css"
 
 
-function Contact() {
-  return (
-    <div className="contact-body">
-      <Grid className="row">
-        <Cell col={6}></Cell>
-        <Cell col={6}></Cell>
-      </Grid>
-    </div>
-  );
+class Contact extends React.Component {
+
+  constructor(props) {
+    super(props);
+    this.state = {
+      name: "",
+      email: "",
+      message: "",
+      disabled: false,
+      emailSent: null,
+
+    }
+  }
+
+  render() {
+    return (
+      <div>
+        <Hero title={this.props.title} />
+      </div>
+    )
+  }
+
 }
+
+
 
 export default Contact;
