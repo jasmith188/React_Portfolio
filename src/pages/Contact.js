@@ -2,6 +2,8 @@ import React from "react";
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import Axios from 'axios';
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 
 class Contact extends React.Component {
@@ -62,7 +64,8 @@ class Contact extends React.Component {
   render() {
     return (
       <div>
-        <div className="container-fluid">
+        <Header/>
+        <div className="container">
           <div className="contact-row">
             <div className="col-md-8">
               <Form onSubmit={this.handleSubmit}>
@@ -88,6 +91,7 @@ class Contact extends React.Component {
             </div>
           </div>
         </div>
+        <Footer/>
       </div>
     )
   }

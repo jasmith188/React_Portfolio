@@ -35,7 +35,7 @@ function Projects() {
         </div>
         <div className="col-lg-3">
           <div className="content">
-            <h3 className="title">Employee Management System App</h3>
+            <h3 className="title">Employee Management App</h3>
             <img className="employee" src={Image3} alt={"Error"} height="150px" width="320px" />
             <a href="https://github.com/jasmith188/Employee_Management_System"
               className="github-app"> github.com/jasmith188/Employee_Management_System
@@ -67,7 +67,7 @@ function Projects() {
           <h3 className="title">InfoDose App</h3>
             <img className="infodose" src={Image6} alt={"Error"} height="150px" width="320px" />
             <a href="https://lit-crag-01772.herokuapp.com"
-              className="app">lit-crag-01772.herokuapp.com
+              className="github-app">lit-crag-01772.herokuapp.com
           </a>
           </div>
         </div>
@@ -92,8 +92,6 @@ function Projects() {
       </div>
       <Footer/>
     </div>
-    
-
   )
 }
 

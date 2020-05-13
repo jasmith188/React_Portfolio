@@ -33,7 +33,7 @@ function Home() {
         <div className="col-lg-6">
             <div className="card-body">
               <div className="card-text">
-                HTML-CSS-Javascript-jQuery-Responsive Design-Handlebars-Local Storage-IndexedDB-React.js-API-JSON-AJAX-MySQL-MongoDB-Node.js-Express-MERN Stack
+                I have recieved a certificate in Full Stack Coding at the University of Cetral Florida. There I learned the fundamentals of HTML-CSS-Javascript-jQuery-Responsive Design-Handlebars-Local Storage-IndexedDB-React.js-API-JSON-AJAX-MySQL-MongoDB-Node.js-Express-MERN Stack
                 </div>
             </div>
           </div>
