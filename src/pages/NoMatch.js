@@ -1,7 +1,7 @@
 import React from "react";
 
 
-function About() {
+function NoMatch() {
     return (
         <div>
             <h2>No Match</h2>
@@ -9,4 +9,4 @@ function About() {
     );
   }
 
-export default About;
+export default NoMatch;
