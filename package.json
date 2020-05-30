@@ -1,11 +1,11 @@
 {
-  "homepage": "https://jasmith188.github.io/React_Portfolio/",
+  "homepage": "http://jasmith188.github.io/React_Portfolio",
   "name": "react_portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.28",
-    "npm i ": "^5.13.0",
+    "@fortawesome/free-brands-svg-icons": "^5.13.0",
     "@fortawesome/free-solid-svg-icons": "^5.13.0",
     "@fortawesome/react-fontawesome": "^0.1.9",
     "@testing-library/jest-dom": "^4.2.4",
@@ -14,6 +14,7 @@
     "axios": "^0.19.2",
     "gh-pages": "^2.2.0",
     "i": "^0.3.6",
+    "npm i ": "^5.13.0",
     "react": "^16.13.1",
     "react-bootstrap": "^1.0.1",
     "react-dom": "^16.13.1",
