@@ -7,7 +7,7 @@ import Image2 from "../images/plating.jpeg"
 // import Background from "../components/Background"
 
 
-function Home() {
+function About() {
   return (
 
     <div className="homePage">
@@ -54,4 +54,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default About;
