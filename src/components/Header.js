@@ -31,7 +31,7 @@ function Header() {
         <Navbar.Toggle aria-controls="basic-navbar-nav"/>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto">
-            <Nav.Item><Nav.Link href="/">About Me</Nav.Link></Nav.Item>
+            <Nav.Item><Nav.Link href="/React_Portfolio">About Me</Nav.Link></Nav.Item>
             <Nav.Item><Nav.Link href="/projects">Projects</Nav.Link></Nav.Item>
             <Nav.Item><Nav.Link href="/contact">Contact Me</Nav.Link></Nav.Item>
           </Nav>
