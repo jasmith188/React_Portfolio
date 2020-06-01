@@ -27,13 +27,13 @@ function Header() {
   return (
     <Styles>
       <Navbar expand="lg">
-        <Navbar.Brand href="/home">Home</Navbar.Brand>
+        <Navbar.Brand href="/React_Portfolio/home">Home</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav"/>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto">
-            <Nav.Item><Nav.Link href="/about">About Me</Nav.Link></Nav.Item>
-            <Nav.Item><Nav.Link href="/projects">Projects</Nav.Link></Nav.Item>
-            <Nav.Item><Nav.Link href="/contact">Contact Me</Nav.Link></Nav.Item>
+            <Nav.Item><Nav.Link href="/React_Portfolio/about">About Me</Nav.Link></Nav.Item>
+            <Nav.Item><Nav.Link href="/React_Portfolio/projects">Projects</Nav.Link></Nav.Item>
+            <Nav.Item><Nav.Link href="/React_Portfolio/contact">Contact Me</Nav.Link></Nav.Item>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
