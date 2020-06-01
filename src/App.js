@@ -16,10 +16,10 @@ class App extends React.Component {
         <Router>
           <div>
             <Switch>
-              <Route exact path="/home" component={Home} />
-              <Route exact path="/about" component={About} />
-              <Route exact path="/projects" component={Projects} />
-              <Route exact path="/contact" component={Contact} />
+              <Route exact path="/React_Portfolio/home" component={Home} />
+              <Route exact path="React_Portfolio/about" component={About} />
+              <Route exact path="/React_Portfolio/projects" component={Projects} />
+              <Route exact path="/React_Portfolio/contact" component={Contact} />
               {/* <Route component={NoMatch} /> */}
             </Switch>
           </div>
