@@ -12,7 +12,7 @@ class Contact extends React.Component {
       <div>
         <Header/>
         
-
+<h1>this is my contact</h1>
          
       </div>
     )
