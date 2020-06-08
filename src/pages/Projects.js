@@ -1,98 +1,76 @@
 import React from 'react';
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import Image from "../images/notetaker.jpg"
+import Carousel from 'react-bootstrap/Carousel'
 import Image2 from "../images/burger.jpg"
 import Image3 from "../images/managementsystem.jpg"
 import Image4 from "../images/hopsgrapes.jpg"
 import Image5 from "../images/password.jpg"
-import Image6 from "../images/infodosemain.jpg"
-import Image7 from "../images/quiz.png"
 import Image8 from "../images/workdayscheduler.png"
 
+
 function Projects() {
-  return (
-    <div className="projectBackground">
-      <Navbar/>
-      <div className="row">
-        <div className="col-lg-3">
-          <div className="content">
-          <h3 className="title">NoteTaker App</h3>
-            <img className="notetaker" src={Image} alt={"Error"} height="150px" width="320px" />
-            <a href="https://github.com/jasmith188/Note_Taker"
-              className="github-app"> github.com/jasmith188/Note_Taker
+    return (
+        <div>
+            <Navbar />
+            <Carousel>
+                <Carousel.Item>
+                    <img className="burger" src={Image2} alt={"Error"} height="350px" width="590px" />
+                    <Carousel.Caption>
+                        <h3>Burger App</h3>
+                        <p>This is a project that allows users to create and eat burgers.</p>
+                        <a href="https://github.com/jasmith188/Burger"
+                            className="github-app"> github.com/jasmith188/Burger
           </a>
-          </div>
-        </div>
-        <div className="col-lg-3">
-          <div className="content">
-          <h3 className="title">Burger App</h3>
-            <img className="burger" src={Image2} alt={"Error"} height="150px" width="320px" />
-            <a href="https://github.com/jasmith188/Burger"
-              className="github-app"> github.com/jasmith188/Burger
+                    </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img className="employee" src={Image3} alt={"Error"} height="350px" width="590px" />
+
+                    <Carousel.Caption>
+                        <h3>Employee Management App</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <a href="https://github.com/jasmith188/Employee_Management_System"
+                            className="github-app"> github.com/jasmith188/Employee_Management_System
           </a>
-          </div>
-        </div>
-        <div className="col-lg-3">
-          <div className="content">
-            <h3 className="title">Employee Management App</h3>
-            <img className="employee" src={Image3} alt={"Error"} height="150px" width="320px" />
-            <a href="https://github.com/jasmith188/Employee_Management_System"
-              className="github-app"> github.com/jasmith188/Employee_Management_System
+                    </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img className="hopsgrapes" src={Image4} alt={"Error"} height="350px" width="590px" />
+
+                    <Carousel.Caption>
+                        <h3>Hops&Grapes App</h3>
+                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                        <a href="https://github.com/jasmith188/Hops-Grapes"
+                            className="github-app"> github.com/jasmith188/Hops-Grapes
           </a>
-          </div>
-        </div>
-        <div className="col-lg-3">
-          <div className="content">
-          <h3 className="title">Hops&Grapes App</h3>
-            <img className="hopsgrapes" src={Image4} alt={"Error"} height="150px" width="320px" />
-            <a href="https://github.com/jasmith188/Hops-Grapes"
-              className="github-app"> github.com/jasmith188/Hops-Grapes
+                    </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img className="infodose" src={Image5} alt={"Error"} height="350px" width="590px" />
+
+                    <Carousel.Caption>
+                        <h3>InfoDose App</h3>
+                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                        <a href="https://lit-crag-01772.herokuapp.com"
+                            className="github-app">lit-crag-01772.herokuapp.com
           </a>
-          </div>
-        </div>
-      </div>
-      <div className="row">
-        <div className="col-lg-3">
-          <div className="content">
-          <h3 className="title">Password Generator App</h3>
-            <img className="infodose" src={Image5} alt={"Error"} height="150px" width="320px" />
-            <a href="https://github.com/jasmith188/Password_Generator"
-              className="github-app"> github.com/jasmith188/Password_Generator
+                    </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img className="notetaker" src={Image8} alt={"Error"} height="350px" width="590px" />
+
+                    <Carousel.Caption>
+                        <h3>Day Planner App</h3>
+                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                        <a href="https://github.com/jasmith188/DayPlanner"
+                            className="github-app"> github.com/jasmith188/DayPlanner
           </a>
-          </div>
+                    </Carousel.Caption>
+                </Carousel.Item>
+            </Carousel>
         </div>
-        <div className="col-lg-3">
-          <div className="content">
-          <h3 className="title">InfoDose App</h3>
-            <img className="infodose" src={Image6} alt={"Error"} height="150px" width="320px" />
-            <a href="https://lit-crag-01772.herokuapp.com"
-              className="github-app">lit-crag-01772.herokuapp.com
-          </a>
-          </div>
-        </div>
-        <div className="col-lg-3">
-          <div className="content">
-          <h3 className="title">Password App</h3>
-            <img className="password" src={Image7} alt={"Error"} height="150px" width="320px" />
-            <a href="https://github.com/jasmith188/CodeQuiz"
-              className="github-app"> github.com/jasmith188/CodeQuiz
-          </a>
-          </div>
-        </div>
-        <div className="col-lg-3">
-          <div className="content">
-          <h3 className="title">Day Planner App</h3>
-            <img className="notetaker" src={Image8} alt={"Error"} height="150px" width="320px" />
-            <a href="https://github.com/jasmith188/DayPlanner"
-              className="github-app"> github.com/jasmith188/DayPlanner
-          </a>
-          </div>
-        </div>
-      </div>
-      <Footer/>
-    </div>
-  )
+    )
 }
 
-export default Projects;
+export default Projects
