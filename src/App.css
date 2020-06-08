@@ -6,7 +6,7 @@ body {
   
 .nav-link {
   color: white;
-  font-size: 26px;
+  font-size: 20px;
   font-weight: bold;
   padding-top: 40px;
 
@@ -20,6 +20,36 @@ body {
 
 }
 
+.about-text {
+  color: white;
+  font-size: 30px;
+}
+
+.bio-container {
+  border-style: solid;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.plating-container {
+  border-style: solid;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.skills {
+  text-align: center;
+}
+
+.skills-container {
+  color: white;
+  padding-left: 200px;
+  padding-right: 200px;
+}
 /* .homePage {
   background-image: url("./images/something.jpg");
   background-repeat: no-repeat;
@@ -139,4 +169,8 @@ text-align: center;
 .carousel-item {
   border-color: white;
   border-width: thick;
+}
+
+h1 {
+  color: white;
 }

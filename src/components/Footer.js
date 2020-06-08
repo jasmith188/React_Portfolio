@@ -7,7 +7,7 @@ import "../App.css"
 function Footer() {
     return (
     <div className="social-container">
-            <h3 className="social-title">© 2020 Jimmy Smith</h3>
+            <h1 className="social-title">© Copyright 2020</h1>
             <a
                 href="https://github.com/jasmith188"
                 className="github social">

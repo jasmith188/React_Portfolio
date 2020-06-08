@@ -2,56 +2,74 @@ import React from "react";
 import "../App.css"
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import Image from "../images/biopicture.jpeg"
+import Image3 from "../images/biopicture.jpeg"
 import Image2 from "../images/plating.jpeg"
-// import Background from "../components/Background"
-
+import Image from 'react-bootstrap/Image'
+import Jumbotron from 'react-bootstrap/Jumbotron'
+import { Row, Col, Container } from "react-bootstrap"
 
 function About() {
-  return (
-
-    <div className="homePage">
-
-      <Navbar />
-      <div className="container">
-        <div className="row">  </div>
-        <div className="row">
-          <div className="col-lg-6">
-            <div className="bioPicture">
-              <img className="bioPicture" src={Image} alt={"Error"} height="550px" width="470px" />
-            </div>
-          </div>
-          <div className="col-lg-6">
-            <div className="card-body">
-              <div className="card-text">
-                Hello my name is Jimmy Smith. I have just recently switched careers out of the hectic restaurant business and have pursued a new career and have become a Full Stack Web Developer
+    return (
+        <div>
+            <Navbar />
+            <br />
+            <Container className="bio-container">
+                <Row>
+                    <Col xs={6}>
+                        <Image src={Image3} rounded alt={"Error"} height="550px" width="470px" />
+                    </Col>
+                    <Col xs={6}>
+                        <div className="about-text">
+                            Hello, my name is Jimmy Smith and I have recently recieved a Certificate in Full Stack Coding at the University of Central Florida. I have learned the fundamentals of different Languages and Applications used in front and back end development. I'm looking forward to contributing to my team's success by collaboratively creating different projects and applications.
                 </div>
-            </div>
-          </div>
-        </div>
-        <div className="row">
-        <div className="col-lg-6">
-            <div className="card-body">
-              <div className="card-text">
-                I have recieved a certificate in Full Stack Coding at the University of Cetral Florida. There I learned the fundamentals of HTML-CSS-Javascript-jQuery-Responsive Design-Handlebars-Local Storage-IndexedDB-React.js-API-JSON-AJAX-MySQL-MongoDB-Node.js-Express-MERN Stack
+                    </Col>
+                </Row>
+            </Container>
+            <br />
+            <Jumbotron>
+            <Container className="skills-container">
+                <h1 className= "skills">Skills</h1>
+        <Row>
+        <Col xs={6} md={4} className="mx-auto">
+        <h5>Languages</h5>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Javascript</li>
+          <li>Node.js</li>
+          <li>SQL</li>
+        </ul>
+        </Col>
+        <Col xs={6} md={4}className="mx-auto">
+          <h5>Applications</h5>
+        <ul>
+        <li>MySQL</li>
+        <li>MongoDB</li>
+        <li>Express</li>
+        <li>Handlebars</li>
+        <li>React</li>
+        <li>Mongoose</li>
+        </ul>
+        </Col>
+        </Row>
+        </Container>
+            </Jumbotron>
+            <Container className="plating-container">
+                <Row>
+                    <Col xs={6}>
+                        <div className="about-text">
+                        Working in the hectic restaurant business for the past 16 years has honed my skills in teamwork, time-management and dealing with ambiguity.  These skills have allowed me to successfully transition my career from a chef to a Full Stack Developer.
                 </div>
-            </div>
-          </div>
-          <div className="col-lg-6">
-            <div className="bioPicture">
-              <img className="platingPicture" src={Image2} alt={"Error"} height="550px" width="350px" />
-            </div>
-          </div>
+                    </Col>
+                    <Col xs={6}>
+                        <Image src={Image2} rounded alt={"Error"} height="550px" width="350px" />
+                    </Col>
+                </Row>
+            </Container>
+            <br />
+            <Footer />
         </div>
-
-      </div>
-
-
-
-      <Footer />
-
-    </div >
-  );
+    )
 }
 
-export default About;
+export default About 

@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer"
 import Container from 'react-bootstrap/Container'
 import Carousel from 'react-bootstrap/Carousel'
 import Image2 from "../images/burger.jpg"
@@ -73,6 +74,11 @@ function Projects() {
                 </Carousel.Item>
             </Carousel>
             </Container>
+            <br />
+            <br />
+            <br />
+            <br />
+            <Footer />
         </div>
     )
 }

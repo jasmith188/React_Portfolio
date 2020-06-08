@@ -11,6 +11,7 @@ class Contact extends React.Component {
     return (
       <div>
         <Navbar/>
+        <br />
         
 <h1>this is my contact</h1>
          
