@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
+import Container from 'react-bootstrap/Container'
 import Carousel from 'react-bootstrap/Carousel'
 import Image2 from "../images/burger.jpg"
 import Image3 from "../images/managementsystem.jpg"
@@ -13,9 +13,11 @@ function Projects() {
     return (
         <div>
             <Navbar />
+            <br />
+            <Container className="project-container">
             <Carousel>
                 <Carousel.Item>
-                <img className="burgerapp" src={Image2} alt={"Error"} height="450px" width="900px" />
+                <img className="burgerapp" src={Image2} alt={"Error"} height="250px" width="450px" />
                 <br />
                     <Carousel.Caption />
                         
@@ -28,7 +30,7 @@ function Projects() {
                     
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img className="employee" src={Image3} alt={"Error"} height="450px" width="900px" />
+                    <img className="employee" src={Image3} alt={"Error"} height="250px" width="450px" />
 
                     <Carousel.Caption />
                         <h3>Employee Management App</h3>
@@ -39,7 +41,7 @@ function Projects() {
                     
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img className="hopsgrapes" src={Image4} alt={"Error"} height="450px" width="900px" />
+                    <img className="hopsgrapes" src={Image4} alt={"Error"} height="250px" width="450px" />
                     <br />
                     <Carousel.Caption />
                         <h3>Hops&Grapes App</h3>
@@ -50,7 +52,7 @@ function Projects() {
                     
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img className="infodose" src={Image6} alt={"Error"} height="450px" width="900px" />
+                    <img className="infodose" src={Image6} alt={"Error"} height="250px" width="450px" />
                     <Carousel.Caption />
                         <h3>InfoDose App</h3>
                         <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
@@ -59,7 +61,7 @@ function Projects() {
           </a>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img className="notetaker" src={Image8} alt={"Error"} height="450px" width="900px" />
+                    <img className="notetaker" src={Image8} alt={"Error"} height="250px" width="450px" />
 
                     <Carousel.Caption/>
                         <h3>Day Planner App</h3>
@@ -70,6 +72,7 @@ function Projects() {
                     
                 </Carousel.Item>
             </Carousel>
+            </Container>
         </div>
     )
 }

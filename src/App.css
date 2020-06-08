@@ -6,9 +6,17 @@ body {
   
 .nav-link {
   color: white;
-  font-size: 16px;
+  font-size: 26px;
   font-weight: bold;
+  padding-top: 40px;
 
+
+}
+
+.navbar {
+  padding-bottom: 40px;
+  border-bottom-style: solid;
+  border-color: white;
 
 }
 
@@ -122,4 +130,13 @@ h3 {
 
 p {
   color: white;
+}
+
+.carousel-item {
+text-align: center;
+}
+
+.carousel-item {
+  border-color: white;
+  border-width: thick;
 }
