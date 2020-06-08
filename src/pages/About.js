@@ -1,6 +1,6 @@
 import React from "react";
 import "../App.css"
-import Header from "../components/Header";
+import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Image from "../images/biopicture.jpeg"
 import Image2 from "../images/plating.jpeg"
@@ -12,7 +12,7 @@ function About() {
 
     <div className="homePage">
 
-      <Header />
+      <Navbar />
       <div className="container">
         <div className="row">  </div>
         <div className="row">

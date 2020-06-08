@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from "../components/Header";
+import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Image from "../images/notetaker.jpg"
 import Image2 from "../images/burger.jpg"
@@ -13,7 +13,7 @@ import Image8 from "../images/workdayscheduler.png"
 function Projects() {
   return (
     <div className="projectBackground">
-      <Header/>
+      <Navbar/>
       <div className="row">
         <div className="col-lg-3">
           <div className="content">

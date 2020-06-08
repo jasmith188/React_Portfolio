@@ -1,14 +1,14 @@
 import React from "react";
 import Jumbotron from 'react-bootstrap/Jumbotron'
 import Container from 'react-bootstrap/Container'
-import Header from "../components/Header"
+import Navbar from "../components/Navbar"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faGithub} from "@fortawesome/free-brands-svg-icons"
 
 function Home() {
     return (
         <div className="home-body">
-            <Header />
+            <Navbar />
             <Jumbotron fluid>
                 <Container>
                 <h1>Hello, I'm Jimmy Smith.</h1>
