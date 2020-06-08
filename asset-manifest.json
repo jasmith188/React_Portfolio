@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/React_Portfolio/static/css/main.beccf2a7.chunk.css",
-    "main.js": "/React_Portfolio/static/js/main.7d1262f2.chunk.js",
-    "main.js.map": "/React_Portfolio/static/js/main.7d1262f2.chunk.js.map",
+    "main.css": "/React_Portfolio/static/css/main.91a1270a.chunk.css",
+    "main.js": "/React_Portfolio/static/js/main.86927cf2.chunk.js",
+    "main.js.map": "/React_Portfolio/static/js/main.86927cf2.chunk.js.map",
     "runtime-main.js": "/React_Portfolio/static/js/runtime-main.e3c7ef78.js",
     "runtime-main.js.map": "/React_Portfolio/static/js/runtime-main.e3c7ef78.js.map",
-    "static/js/2.7753860e.chunk.js": "/React_Portfolio/static/js/2.7753860e.chunk.js",
-    "static/js/2.7753860e.chunk.js.map": "/React_Portfolio/static/js/2.7753860e.chunk.js.map",
+    "static/js/2.f0f64ab9.chunk.js": "/React_Portfolio/static/js/2.f0f64ab9.chunk.js",
+    "static/js/2.f0f64ab9.chunk.js.map": "/React_Portfolio/static/js/2.f0f64ab9.chunk.js.map",
     "index.html": "/React_Portfolio/index.html",
-    "precache-manifest.8165d79176ad450a092300c79bf8bd7e.js": "/React_Portfolio/precache-manifest.8165d79176ad450a092300c79bf8bd7e.js",
+    "precache-manifest.2847eed485af58d3e64eb170398e26d2.js": "/React_Portfolio/precache-manifest.2847eed485af58d3e64eb170398e26d2.js",
     "service-worker.js": "/React_Portfolio/service-worker.js",
-    "static/css/main.beccf2a7.chunk.css.map": "/React_Portfolio/static/css/main.beccf2a7.chunk.css.map",
-    "static/js/2.7753860e.chunk.js.LICENSE.txt": "/React_Portfolio/static/js/2.7753860e.chunk.js.LICENSE.txt",
+    "static/css/main.91a1270a.chunk.css.map": "/React_Portfolio/static/css/main.91a1270a.chunk.css.map",
+    "static/js/2.f0f64ab9.chunk.js.LICENSE.txt": "/React_Portfolio/static/js/2.f0f64ab9.chunk.js.LICENSE.txt",
     "static/media/biopicture.jpeg": "/React_Portfolio/static/media/biopicture.c693abaf.jpeg",
     "static/media/burger.jpg": "/React_Portfolio/static/media/burger.31c8821f.jpg",
     "static/media/App.css": "/React_Portfolio/static/media/codebackground.25f51426.jpg",
@@ -23,8 +23,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.e3c7ef78.js",
-    "static/js/2.7753860e.chunk.js",
-    "static/css/main.beccf2a7.chunk.css",
-    "static/js/main.7d1262f2.chunk.js"
+    "static/js/2.f0f64ab9.chunk.js",
+    "static/css/main.91a1270a.chunk.css",
+    "static/js/main.86927cf2.chunk.js"
   ]
 }
