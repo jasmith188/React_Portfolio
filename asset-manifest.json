@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/React_Portfolio/static/css/main.2031482a.chunk.css",
-    "main.js": "/React_Portfolio/static/js/main.9cd87bfe.chunk.js",
-    "main.js.map": "/React_Portfolio/static/js/main.9cd87bfe.chunk.js.map",
+    "main.css": "/React_Portfolio/static/css/main.37c90719.chunk.css",
+    "main.js": "/React_Portfolio/static/js/main.905741d6.chunk.js",
+    "main.js.map": "/React_Portfolio/static/js/main.905741d6.chunk.js.map",
     "runtime-main.js": "/React_Portfolio/static/js/runtime-main.e3c7ef78.js",
     "runtime-main.js.map": "/React_Portfolio/static/js/runtime-main.e3c7ef78.js.map",
-    "static/js/2.02ffd563.chunk.js": "/React_Portfolio/static/js/2.02ffd563.chunk.js",
-    "static/js/2.02ffd563.chunk.js.map": "/React_Portfolio/static/js/2.02ffd563.chunk.js.map",
+    "static/js/2.24ca9eed.chunk.js": "/React_Portfolio/static/js/2.24ca9eed.chunk.js",
+    "static/js/2.24ca9eed.chunk.js.map": "/React_Portfolio/static/js/2.24ca9eed.chunk.js.map",
     "index.html": "/React_Portfolio/index.html",
-    "precache-manifest.40a45afbe922854693828bf1a2e80bfd.js": "/React_Portfolio/precache-manifest.40a45afbe922854693828bf1a2e80bfd.js",
+    "precache-manifest.4d7fc86576a79057a5924a461754e8eb.js": "/React_Portfolio/precache-manifest.4d7fc86576a79057a5924a461754e8eb.js",
     "service-worker.js": "/React_Portfolio/service-worker.js",
-    "static/css/main.2031482a.chunk.css.map": "/React_Portfolio/static/css/main.2031482a.chunk.css.map",
-    "static/js/2.02ffd563.chunk.js.LICENSE.txt": "/React_Portfolio/static/js/2.02ffd563.chunk.js.LICENSE.txt",
+    "static/css/main.37c90719.chunk.css.map": "/React_Portfolio/static/css/main.37c90719.chunk.css.map",
+    "static/js/2.24ca9eed.chunk.js.LICENSE.txt": "/React_Portfolio/static/js/2.24ca9eed.chunk.js.LICENSE.txt",
+    "static/media/badge.png": "/React_Portfolio/static/media/badge.f268d4cb.png",
     "static/media/biopicture.jpeg": "/React_Portfolio/static/media/biopicture.c693abaf.jpeg",
     "static/media/burger.jpg": "/React_Portfolio/static/media/burger.31c8821f.jpg",
     "static/media/App.css": "/React_Portfolio/static/media/codebackground.25f51426.jpg",
@@ -23,8 +24,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.e3c7ef78.js",
-    "static/js/2.02ffd563.chunk.js",
-    "static/css/main.2031482a.chunk.css",
-    "static/js/main.9cd87bfe.chunk.js"
+    "static/js/2.24ca9eed.chunk.js",
+    "static/css/main.37c90719.chunk.css",
+    "static/js/main.905741d6.chunk.js"
   ]
 }
