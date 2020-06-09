@@ -24,9 +24,9 @@ function Projects() {
                         
                        
                         <h3>Burger App</h3>
-                        <p>This is a project that allows users to create and eat burgers.</p>
-                        <a href="https://github.com/jasmith188/Burger"
-                            className="github-app"> github.com/jasmith188/Burger
+                        <p>This is a project that allows users to create and eat burgers. Click on the link and play with it.</p>
+                        <a href="https://mighty-plateau-81159.herokuapp.com/"
+                            className="github-app"> mighty-plateau-81159.herokuapp.com
           </a>
                     
                 </Carousel.Item>
@@ -35,7 +35,7 @@ function Projects() {
 
                     <Carousel.Caption />
                         <h3>Employee Management App</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <p>This is a project that helps employers organize and manage their employees.</p>
                         <a href="https://github.com/jasmith188/Employee_Management_System"
                             className="github-app"> github.com/jasmith188/Employee_Management_System
           </a>
@@ -46,7 +46,7 @@ function Projects() {
                     <br />
                     <Carousel.Caption />
                         <h3>Hops&Grapes App</h3>
-                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                        <p>This is a project that gives users information on local breweries and wine stores by geo-location.</p>
                         <a href="https://github.com/jasmith188/Hops-Grapes"
                             className="github-app"> github.com/jasmith188/Hops-Grapes
           </a>
@@ -56,7 +56,7 @@ function Projects() {
                     <img className="infodose" src={Image6} alt={"Error"} height="250px" width="450px" />
                     <Carousel.Caption />
                         <h3>InfoDose App</h3>
-                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                        <p>This is a collaborative project which gives users information on overdoses by typing a location. Also the user can find a local police station nearby using geo-location.</p>
                         <a href="https://lit-crag-01772.herokuapp.com"
                             className="github-app">lit-crag-01772.herokuapp.com
           </a>
@@ -66,9 +66,9 @@ function Projects() {
 
                     <Carousel.Caption/>
                         <h3>Day Planner App</h3>
-                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                        <p>This is a projec that allows users to write down their activities for the work day and it saves it for them.</p>
                         <a href="https://jasmith188.github.io/DayPlanner/"
-                            className="github-app"> github.com/jasmith188/DayPlanner
+                            className="github-app"> jasmith188.github.io/DayPlanner
           </a>
                     
                 </Carousel.Item>

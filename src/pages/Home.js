@@ -19,17 +19,17 @@ function Home() {
             </Jumbotron>
 
             <Jumbotron fluid>
-                <Container>
+                <Container className="social-home">
                 
             <a
                 href="https://github.com/jasmith188"
                 className="github social">
-                <FontAwesomeIcon icon={faGithub} size="2x" />
+                <FontAwesomeIcon icon={faGithub} size="4x" />
             </a>
             <a
                 href="https://www.linkedin.com/in/james-smith-286a41112/"
                 className="linkedin social">
-                <FontAwesomeIcon icon={faLinkedin} size="2x" />
+                <FontAwesomeIcon icon={faLinkedin} size="4x" />
             </a>
                 </Container>
             </Jumbotron>

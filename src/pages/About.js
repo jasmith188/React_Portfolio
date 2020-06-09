@@ -11,7 +11,7 @@ import { Row, Col, Container } from "react-bootstrap"
 
 function About() {
     return (
-        <div>
+        <div className="homepage">
             <Navbar />
             <br />
             <Container className="top-container">
@@ -22,7 +22,7 @@ function About() {
                 </div>
                     </Col>
                     <Col xs={6} >
-                        <Image src={Image3} rounded alt={"Error"} height="550px" width="470px" />
+                        <Image src={Image3} rounded alt={"Error"} height="450px" width="390px" />
                     </Col>
                 </Row>
             </Container>
