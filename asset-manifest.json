@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/React_Portfolio/static/css/main.37c90719.chunk.css",
-    "main.js": "/React_Portfolio/static/js/main.905741d6.chunk.js",
-    "main.js.map": "/React_Portfolio/static/js/main.905741d6.chunk.js.map",
+    "main.css": "/React_Portfolio/static/css/main.84e25cc5.chunk.css",
+    "main.js": "/React_Portfolio/static/js/main.efe190f9.chunk.js",
+    "main.js.map": "/React_Portfolio/static/js/main.efe190f9.chunk.js.map",
     "runtime-main.js": "/React_Portfolio/static/js/runtime-main.e3c7ef78.js",
     "runtime-main.js.map": "/React_Portfolio/static/js/runtime-main.e3c7ef78.js.map",
     "static/js/2.24ca9eed.chunk.js": "/React_Portfolio/static/js/2.24ca9eed.chunk.js",
     "static/js/2.24ca9eed.chunk.js.map": "/React_Portfolio/static/js/2.24ca9eed.chunk.js.map",
     "index.html": "/React_Portfolio/index.html",
-    "precache-manifest.4d7fc86576a79057a5924a461754e8eb.js": "/React_Portfolio/precache-manifest.4d7fc86576a79057a5924a461754e8eb.js",
+    "precache-manifest.26518f03c4ebf5f86dce92223ce6b99b.js": "/React_Portfolio/precache-manifest.26518f03c4ebf5f86dce92223ce6b99b.js",
     "service-worker.js": "/React_Portfolio/service-worker.js",
-    "static/css/main.37c90719.chunk.css.map": "/React_Portfolio/static/css/main.37c90719.chunk.css.map",
+    "static/css/main.84e25cc5.chunk.css.map": "/React_Portfolio/static/css/main.84e25cc5.chunk.css.map",
     "static/js/2.24ca9eed.chunk.js.LICENSE.txt": "/React_Portfolio/static/js/2.24ca9eed.chunk.js.LICENSE.txt",
     "static/media/badge.png": "/React_Portfolio/static/media/badge.f268d4cb.png",
     "static/media/biopicture.jpeg": "/React_Portfolio/static/media/biopicture.c693abaf.jpeg",
     "static/media/burger.jpg": "/React_Portfolio/static/media/burger.31c8821f.jpg",
-    "static/media/App.css": "/React_Portfolio/static/media/codebackground.25f51426.jpg",
+    "static/media/App.css": "/React_Portfolio/static/media/something.fdc3fd43.jpg",
     "static/media/hopsgrapes.jpg": "/React_Portfolio/static/media/hopsgrapes.c8b8d87e.jpg",
     "static/media/infodoselogin.jpg": "/React_Portfolio/static/media/infodoselogin.f5378735.jpg",
     "static/media/managementsystem.jpg": "/React_Portfolio/static/media/managementsystem.9625c26c.jpg",
@@ -25,7 +25,7 @@
   "entrypoints": [
     "static/js/runtime-main.e3c7ef78.js",
     "static/js/2.24ca9eed.chunk.js",
-    "static/css/main.37c90719.chunk.css",
-    "static/js/main.905741d6.chunk.js"
+    "static/css/main.84e25cc5.chunk.css",
+    "static/js/main.efe190f9.chunk.js"
   ]
 }
