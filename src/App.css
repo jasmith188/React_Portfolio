@@ -22,10 +22,10 @@ body {
 
 .about-text {
   color: white;
-  font-size: 30px;
+  font-size: 25px;
 }
 
-.bio-container {
+.top-container {
   border-style: solid;
   padding-top: 60px;
   padding-bottom: 60px;
@@ -33,7 +33,7 @@ body {
   padding-right: 60px;
 }
 
-.plating-container {
+.bottom-container {
   border-style: solid;
   padding-top: 60px;
   padding-bottom: 60px;
@@ -49,6 +49,11 @@ body {
   color: white;
   padding-left: 200px;
   padding-right: 200px;
+}
+
+.languages-column {
+  text-align: justify;
+  padding-left: 150px;
 }
 /* .homePage {
   background-image: url("./images/something.jpg");
@@ -69,7 +74,6 @@ body {
   margin-bottom: 80px;
 }
 
-
 .platingPicture {
   margin-left: 60px;
 }
@@ -87,13 +91,19 @@ body {
 .content {
   padding: 1rem;
 }
+
 .aboutImage {
   margin-top: 50px;
 }
+
 .card-body {
   font-size: 40px;
   color: white;font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 
+.contact-container {
+  text-align: center;
+  color: white;
 }
 .social-title {
   font-size: 24px;

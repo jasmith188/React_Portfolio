@@ -67,7 +67,7 @@ function Projects() {
                     <Carousel.Caption/>
                         <h3>Day Planner App</h3>
                         <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                        <a href="https://github.com/jasmith188/DayPlanner"
+                        <a href="https://jasmith188.github.io/DayPlanner/"
                             className="github-app"> github.com/jasmith188/DayPlanner
           </a>
                     
