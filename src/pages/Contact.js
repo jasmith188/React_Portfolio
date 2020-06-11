@@ -3,11 +3,7 @@ import Navbar from "../components/Navbar";
 import Jumbotron from 'react-bootstrap/Jumbotron'
 import Container from 'react-bootstrap/Container'
 
-
-
 class Contact extends React.Component {
-
-
 
   render() {
     return (
@@ -17,23 +13,23 @@ class Contact extends React.Component {
 
         <Jumbotron>
           <Container className="contact-container">
-          <h1>Contact Me</h1>
-          <p>Phone Number: (704) 909-8461</p>
-          <p />Email Me:
+            <h1>Contact Me</h1>
+            <p>Phone Number: (704) 909-8461</p>
+            <p />Email Me:
           <a href="mailto:jasmith188@gmail.com"> jasmith.188@gmail.com</a>
-          <br />
-          <p />Github:
+            <br />
+            <p />Github:
           <a href="https://github.com/jasmith188"> github.com/jasmith188</a>
-          <br />
-          <p />Linkedin:
+            <br />
+            <p />Linkedin:
           <a href="https://www.linkedin.com/in/james-smith-286a41112/"> linkedin.com/in/james-smith-286a41112</a>
-          <br />
-          <p />Resume (Google Docs):
+            <br />
+            <p />Resume (Google Docs):
           <a href="https://docs.google.com/document/d/1eS9a8dyDNQHQdJfJybc91e6xAb25XQeQYcmOzihhkcc/edit?usp=sharing/"> Jimmy Smith's Resume (Google Docs)</a>
-          <br />
+            <br />
           </Container>
         </Jumbotron>
-        
+
       </div>
     )
   }
