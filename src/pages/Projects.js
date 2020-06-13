@@ -66,7 +66,7 @@ function Projects() {
 
                     <Carousel.Caption/>
                         <h3>Day Planner App</h3>
-                        <p>This is a projec that allows users to write down their activities for the work day and it saves it for them.</p>
+                        <p>This is a project that allows users to write down their activities for the work day and it saves it for them.</p>
                         <a href="https://jasmith188.github.io/DayPlanner/"
                             className="github-app"> jasmith188.github.io/DayPlanner
           </a>
