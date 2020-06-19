@@ -25,7 +25,7 @@ class Contact extends React.Component {
           <a href="https://www.linkedin.com/in/james-smith-286a41112/"> linkedin.com/in/james-smith-286a41112</a>
             <br />
             <p />Resume (Google Docs):
-          <a href="https://docs.google.com/document/d/1eS9a8dyDNQHQdJfJybc91e6xAb25XQeQYcmOzihhkcc/edit?usp=sharing/"> Jimmy Smith's Resume (Google Docs)</a>
+          <a href="https://docs.google.com/document/d/1eS9a8dyDNQHQdJfJybc91e6xAb25XQeQYcmOzihhkcc/edit?usp=sharing"> Jimmy Smith's Resume (Google Docs)</a>
             <br />
           </Container>
         </Jumbotron>
