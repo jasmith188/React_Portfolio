@@ -31,6 +31,7 @@ body {
   padding-bottom: 60px;
   padding-left: 60px;
   padding-right: 60px;
+  text-align: center;
 }
 
 .bottom-container {
@@ -49,17 +50,15 @@ body {
   color: white;
   padding-left: 200px;
   padding-right: 200px;
+  background-image: url("./images/something.jpg");
 }
 
 .languages-column {
   text-align: justify;
   padding-left: 150px;
 }
-.homepage {
-  background-image: url("./images/something.jpg");
-  background-repeat: no-repeat;
-  background-size: 1200px ;
-  background-position: center;
+.something {
+text-align: center;
 }
 
 
