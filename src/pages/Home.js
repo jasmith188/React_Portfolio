@@ -47,7 +47,7 @@ function Home() {
             </Jumbotron>
             <Row>
                 <Col xs={12} >
-                    <Image className="something" src={Image5} alt={"Error"} height="300px" width="470px" />
+                    <Image className="something" src={Image5} alt={"Error"} height="200px" width="370px" />
                 </Col>
             </Row>
         </div>
