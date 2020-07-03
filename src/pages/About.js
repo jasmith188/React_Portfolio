@@ -25,7 +25,7 @@ function About() {
                 </Row>
                 <Row>
                     <Col className="profile-pic" xs={12} >
-                        <Image src={Image3} rounded alt={"Error"} height="450px" width="390px" />
+                        <Image src={Image3} rounded alt={"Error"} height="350px" width="290px" />
                     </Col>
                 </Row>
             </Container>
