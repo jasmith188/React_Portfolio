@@ -26,28 +26,28 @@ function Home() {
             <a
                 href="https://github.com/jasmith188"
                 className="github social">
-                <FontAwesomeIcon icon={faGithub} size="4x" />
+                <FontAwesomeIcon icon={faGithub} size="3x" />
             </a>
             <a
                 href="https://www.linkedin.com/in/jamessmith812/"
                 className="linkedin social">
-                <FontAwesomeIcon icon={faLinkedin} size="4x" />
+                <FontAwesomeIcon icon={faLinkedin} size="3x" />
             </a>
             <a
                 href="https://twitter.com/jimmysmith812"
                 className="twitter social">
-                <FontAwesomeIcon icon={faTwitter} size="4x" />
+                <FontAwesomeIcon icon={faTwitter} size="3x" />
             </a>
             <a
                 href="https://www.instagram.com/jimmysmith812/"
                 className="instagram social">
-                <FontAwesomeIcon icon={faInstagram} size="4x" />
+                <FontAwesomeIcon icon={faInstagram} size="3x" />
             </a>
                 </Container>
             </Jumbotron>
             <Row>
                 <Col xs={12} >
-                    <Image className="something" src={Image5} alt={"Error"} height="500px" width="670px" />
+                    <Image className="something" src={Image5} alt={"Error"} height="300px" width="470px" />
                 </Col>
             </Row>
         </div>
