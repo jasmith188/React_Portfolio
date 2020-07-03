@@ -182,7 +182,7 @@ h3.title {
 .home-body {
   text-align: center;
   color: white;
-  background-image: url("./images/something.jpg") !important;
+  /* background-image: url("./images/something.jpg") !important; */
   
 }
 

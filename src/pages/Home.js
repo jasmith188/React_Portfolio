@@ -1,7 +1,9 @@
 import React from "react";
 import Jumbotron from 'react-bootstrap/Jumbotron'
-import Container from 'react-bootstrap/Container'
 import Navbar from "../components/Navbar"
+import Image from 'react-bootstrap/Image'
+import Image5 from "../images/something.jpg"
+import { Row, Col, Container } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faGithub, faTwitter, faInstagram} from "@fortawesome/free-brands-svg-icons"
 
@@ -43,6 +45,11 @@ function Home() {
             </a>
                 </Container>
             </Jumbotron>
+            <Row>
+                <Col xs={12} >
+                    <Image className="something" src={Image5} alt={"Error"} height="500px" width="670px" />
+                </Col>
+            </Row>
         </div>
     );
 }

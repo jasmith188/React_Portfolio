@@ -6,7 +6,7 @@ import Image3 from "../images/biopicture.jpeg"
 import Image2 from "../images/plating.jpeg"
 import Image from 'react-bootstrap/Image'
 import Image4 from "../images/badge.png"
-import Image5 from "../images/something.jpg"
+// import Image5 from "../images/something.jpg"
 import Jumbotron from 'react-bootstrap/Jumbotron'
 import { Row, Col, Container } from "react-bootstrap"
 
@@ -30,11 +30,7 @@ function About() {
                 </Row>
             </Container>
             <br />
-            <Row>
-                <Col className="something" xs={12} >
-                    <Image className="something" src={Image5} rounded alt={"Error"} height="500px" width="670px" />
-                </Col>
-            </Row>
+            
             <Row>
             <Col className="badge" xs={12}>
                         <a
