@@ -3,7 +3,7 @@ import Jumbotron from 'react-bootstrap/Jumbotron'
 import Container from 'react-bootstrap/Container'
 import Navbar from "../components/Navbar"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLinkedin, faGithub} from "@fortawesome/free-brands-svg-icons"
+import { faLinkedin, faGithub, faTwitter, faInstagram} from "@fortawesome/free-brands-svg-icons"
 
 function Home() {
     return (
@@ -27,9 +27,19 @@ function Home() {
                 <FontAwesomeIcon icon={faGithub} size="4x" />
             </a>
             <a
-                href="https://www.linkedin.com/in/james-smith-286a41112/"
+                href="https://www.linkedin.com/in/jamessmith812/"
                 className="linkedin social">
                 <FontAwesomeIcon icon={faLinkedin} size="4x" />
+            </a>
+            <a
+                href="https://twitter.com/jimmysmith812"
+                className="twitter social">
+                <FontAwesomeIcon icon={faTwitter} size="4x" />
+            </a>
+            <a
+                href="https://www.instagram.com/jimmysmith812/"
+                className="instagram social">
+                <FontAwesomeIcon icon={faInstagram} size="4x" />
             </a>
                 </Container>
             </Jumbotron>
