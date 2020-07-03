@@ -51,6 +51,7 @@ body {
   padding-left: 200px;
   padding-right: 200px;
   background-image: url("./images/something.jpg");
+  text-align: center;
 }
 
 .languages-column {
@@ -61,6 +62,13 @@ body {
 text-align: center;
 }
 
+.badge {
+  text-align: center;
+}
+
+.chef-pic {
+  text-align: center;
+}
 
 .projectBackground {
   background-image: url("./images/codebackground.jpg");

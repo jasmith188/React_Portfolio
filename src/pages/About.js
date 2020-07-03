@@ -35,6 +35,15 @@ function About() {
                     <Image className="something" src={Image5} rounded alt={"Error"} height="500px" width="670px" />
                 </Col>
             </Row>
+            <Row>
+            <Col className="badge" xs={12}>
+                        <a
+                            href="https://api.badgr.io/public/assertions/J4qMOUgvQyW5baLRTU7I2Q?identity__email=jasmith.188%40gmail.com"
+                            className="badgr">
+                            <Image src={Image4} rounded alt={"Error"} height="300px" width="300px" />
+                        </a>
+                    </Col>
+            </Row>
             <Jumbotron>
                 <Container className="skills-container">
                     <h1 className="skills">Skills</h1>
@@ -73,15 +82,8 @@ function About() {
                     </Col>
                 </Row>
                 <Row>
-                    <Col xs={6}>
+                    <Col className="chef-pic" xs={12}>
                         <Image src={Image2} rounded alt={"Error"} height="500px" width="270px" />
-                    </Col>
-                    <Col xs={6}>
-                        <a
-                            href="https://api.badgr.io/public/assertions/J4qMOUgvQyW5baLRTU7I2Q?identity__email=jasmith.188%40gmail.com"
-                            className="badgr">
-                            <Image src={Image4} rounded alt={"Error"} height="300px" width="300px" />
-                        </a>
                     </Col>
                 </Row>
             </Container>
