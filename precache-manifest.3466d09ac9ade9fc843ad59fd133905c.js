@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b65049361ffa4491599eedff0affa3d5",
+    "revision": "4b4f114594898e6250a2d64eccf8922b",
     "url": "/React_Portfolio/index.html"
   },
   {
-    "revision": "bb0bbd4c6d509f68069d",
+    "revision": "39cc5f06e41eddc19f22",
     "url": "/React_Portfolio/static/css/main.15254a5d.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/React_Portfolio/static/js/2.27cfbc35.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "bb0bbd4c6d509f68069d",
-    "url": "/React_Portfolio/static/js/main.24e944de.chunk.js"
+    "revision": "39cc5f06e41eddc19f22",
+    "url": "/React_Portfolio/static/js/main.c86f215b.chunk.js"
   },
   {
     "revision": "2d93e3239f0577ba9343",
@@ -40,16 +40,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/React_Portfolio/static/media/codebackground.25f51426.jpg"
   },
   {
-    "revision": "c8b8d87e5ef2b0328fd02f097c9f4e9d",
-    "url": "/React_Portfolio/static/media/hopsgrapes.c8b8d87e.jpg"
-  },
-  {
     "revision": "f5378735f3e6886350e78e3e118d96e2",
     "url": "/React_Portfolio/static/media/infodoselogin.f5378735.jpg"
-  },
-  {
-    "revision": "9625c26c178ee7224c909dbe906dc13d",
-    "url": "/React_Portfolio/static/media/managementsystem.9625c26c.jpg"
   },
   {
     "revision": "383dca6d99efb1f94ef34f68fb7d5edb",
@@ -58,6 +50,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "fdc3fd43f9e3babc8a99a23c5dc0b6c6",
     "url": "/React_Portfolio/static/media/something.fdc3fd43.jpg"
+  },
+  {
+    "revision": "5f55f1b2550fa7973d52d77e77893a0b",
+    "url": "/React_Portfolio/static/media/suntide.5f55f1b2.png"
+  },
+  {
+    "revision": "2ff19569178b947748ae9824b4dc281b",
+    "url": "/React_Portfolio/static/media/vacationmakers.2ff19569.png"
   },
   {
     "revision": "977bbfd501df40374ba8630d2572c9bb",

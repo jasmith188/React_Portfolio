@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/React_Portfolio/static/css/main.15254a5d.chunk.css",
-    "main.js": "/React_Portfolio/static/js/main.24e944de.chunk.js",
-    "main.js.map": "/React_Portfolio/static/js/main.24e944de.chunk.js.map",
+    "main.js": "/React_Portfolio/static/js/main.c86f215b.chunk.js",
+    "main.js.map": "/React_Portfolio/static/js/main.c86f215b.chunk.js.map",
     "runtime-main.js": "/React_Portfolio/static/js/runtime-main.e3c7ef78.js",
     "runtime-main.js.map": "/React_Portfolio/static/js/runtime-main.e3c7ef78.js.map",
     "static/js/2.27cfbc35.chunk.js": "/React_Portfolio/static/js/2.27cfbc35.chunk.js",
     "static/js/2.27cfbc35.chunk.js.map": "/React_Portfolio/static/js/2.27cfbc35.chunk.js.map",
     "index.html": "/React_Portfolio/index.html",
-    "precache-manifest.8d78d0cac767c3a3214832079fa40b9d.js": "/React_Portfolio/precache-manifest.8d78d0cac767c3a3214832079fa40b9d.js",
+    "precache-manifest.3466d09ac9ade9fc843ad59fd133905c.js": "/React_Portfolio/precache-manifest.3466d09ac9ade9fc843ad59fd133905c.js",
     "service-worker.js": "/React_Portfolio/service-worker.js",
     "static/css/main.15254a5d.chunk.css.map": "/React_Portfolio/static/css/main.15254a5d.chunk.css.map",
     "static/js/2.27cfbc35.chunk.js.LICENSE.txt": "/React_Portfolio/static/js/2.27cfbc35.chunk.js.LICENSE.txt",
@@ -16,17 +16,17 @@
     "static/media/biopicture.jpeg": "/React_Portfolio/static/media/biopicture.c693abaf.jpeg",
     "static/media/burger.jpg": "/React_Portfolio/static/media/burger.31c8821f.jpg",
     "static/media/App.css": "/React_Portfolio/static/media/codebackground.25f51426.jpg",
-    "static/media/hopsgrapes.jpg": "/React_Portfolio/static/media/hopsgrapes.c8b8d87e.jpg",
     "static/media/infodoselogin.jpg": "/React_Portfolio/static/media/infodoselogin.f5378735.jpg",
-    "static/media/managementsystem.jpg": "/React_Portfolio/static/media/managementsystem.9625c26c.jpg",
     "static/media/plating.jpeg": "/React_Portfolio/static/media/plating.383dca6d.jpeg",
     "static/media/something.jpg": "/React_Portfolio/static/media/something.fdc3fd43.jpg",
+    "static/media/suntide.png": "/React_Portfolio/static/media/suntide.5f55f1b2.png",
+    "static/media/vacationmakers.png": "/React_Portfolio/static/media/vacationmakers.2ff19569.png",
     "static/media/workdayscheduler.png": "/React_Portfolio/static/media/workdayscheduler.977bbfd5.png"
   },
   "entrypoints": [
     "static/js/runtime-main.e3c7ef78.js",
     "static/js/2.27cfbc35.chunk.js",
     "static/css/main.15254a5d.chunk.css",
-    "static/js/main.24e944de.chunk.js"
+    "static/js/main.c86f215b.chunk.js"
   ]
 }
