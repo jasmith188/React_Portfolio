@@ -37,7 +37,7 @@ function Projects() {
                         <h3>Sun Tide</h3>
                         <p>In this application users can type a city and country andretrieve a current and 5 day forecast.</p>
                         <a href="https://github.com/jasmith188/Sun-Tide/"
-                            className="blank_">Github Code</a> | <a href="jasmith188.github.io/Sun-Tide/" className="blank_">App
+                            className="blank_">Github Code</a> | <a href="https://jasmith188.github.io/Sun-Tide/" className="blank_">App
                             </a>
                     
                 </Carousel.Item>
