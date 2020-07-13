@@ -13,7 +13,7 @@ function Home() {
             <Navbar />
             <Jumbotron fluid>
                 <Container>
-                    <h1>Hello, I'm Jimmy Smith.</h1>
+                    <h1>Hello, I'm James Smith.</h1>
                     <p>
                         I'm a full-stack web developer.
                 </p>
