@@ -25,32 +25,83 @@ body {
   font-size: 25px; 
 }
 
-.typewriter h1 {
-  font-size: 32px;
+.typewriter p {
+  font-size: 2opx;
+  color: white;
   overflow: hidden;
   border-right: 2px white;
   white-space: nowrap;
   user-select: none;
-  margin: 0 auto;
+  margin:  auto;
 
-  animation: 
+  /* animation: 
   typing 3.6s steps(30, end),
-  blink-caret 1s step-end infinite;
-
+  blink-caret 1s step-end infinite; */
+}
+.typewriter p:nth-child(1) {
+  width: 11.5em;
+  opacity: 0;
+  -webkit-animation: type2 2s steps(40, end);
+  animation: type2 2s steps(40, end);
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+.typewriter p:nth-child(2) {
+  font-size: 23px;
+  width: 15em;
+  opacity: 0;
+  -webkit-animation: type2 2s steps(40, end);
+  animation: type2 2.7s steps(40, end);
+  -webkit-animation-delay: 3s;
+  animation-delay: 3s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
 }
 
-@keyframes typing {
-  from {
+@keyframes type2 {
+  0% {
     width: 0;
   }
-  to {
-    width: 100%;
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: .15em  transparent;
+  }
+  100% {
+    opacity: 1;
+    border: none;
   }
 }
 
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: white; }
+@-webkit-keyframes type2 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: .15em  transparent;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+  
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+@-webkit-keyframes blink {
+  50% {
+    border-color: tranparent;
+  }
 }
 
 

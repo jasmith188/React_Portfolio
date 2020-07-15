@@ -14,9 +14,9 @@ function Home() {
             <Jumbotron fluid>
                 <Container>
                     <div className="typewriter">
-                    <h1>Hello, I'm James Smith.</h1>
+                    <p>Hello, I'm James Smith</p>
                     <p className="typewriter">
-                        I'm a full-stack web developer.
+                        I'm a full-stack web developer
                 </p>
                 </div>
                 </Container>
