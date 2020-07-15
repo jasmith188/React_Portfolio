@@ -22,8 +22,36 @@ body {
 
 .about-text {
   color: white;
-  font-size: 25px;
+  font-size: 25px; 
 }
+
+.typewriter h1 {
+  overflow: hidden;
+  border-right: 2px white;
+  white-space: nowrap;
+  user-select: none;
+  margin: 0 auto;
+
+  animation: 
+  typing 5.6s steps(30, end),
+  blink-caret 1s step-end infinite;
+
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: white; }
+}
+
 
 .top-container {
   border-style: solid;

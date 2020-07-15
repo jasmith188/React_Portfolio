@@ -13,10 +13,12 @@ function Home() {
             <Navbar />
             <Jumbotron fluid>
                 <Container>
+                    <div className="typewriter">
                     <h1>Hello, I'm James Smith.</h1>
-                    <p>
+                    <p className="typewriter">
                         I'm a full-stack web developer.
                 </p>
+                </div>
                 </Container>
                 <Row>
                     <Col xs={12} >
