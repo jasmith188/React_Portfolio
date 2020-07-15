@@ -22,10 +22,11 @@ body {
 
 .about-text {
   color: white;
-  font-size: 20px; 
+  font-size: 25px; 
 }
 
 .typewriter h1 {
+  font-size: 32px;
   overflow: hidden;
   border-right: 2px white;
   white-space: nowrap;
