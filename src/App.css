@@ -22,7 +22,7 @@ body {
 
 .about-text {
   color: white;
-  font-size: 25px; 
+  font-size: 20px; 
 }
 
 .typewriter h1 {
@@ -33,7 +33,7 @@ body {
   margin: 0 auto;
 
   animation: 
-  typing 5.6s steps(30, end),
+  typing 3.6s steps(30, end),
   blink-caret 1s step-end infinite;
 
 }
