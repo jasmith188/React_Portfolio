@@ -1,7 +1,7 @@
 import React from "react";
 import "../App.css"
 import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
+// import Footer from "../components/Footer";
 import Image3 from "../images/biopicture.jpeg"
 import Image2 from "../images/plating.jpeg"
 import Image from 'react-bootstrap/Image'
@@ -84,7 +84,7 @@ function About() {
                 </Row>
             </Container>
             <br />
-            <Footer />
+            {/* <Footer /> */}
         </div>
     )
 }

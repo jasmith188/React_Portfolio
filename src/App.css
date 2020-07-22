@@ -210,6 +210,24 @@ text-align: center;
 .contact-container {
   text-align: center;
   color: white;
+  background-color: transparent;
+}
+
+.jumbotron {
+  background-color: transparent !important;
+}
+.contact-page {
+  background-image: url(./images/keyboard.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.project-page {
+  background-image: url(./images/codebackground.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .social-title {
   font-size: 24px;

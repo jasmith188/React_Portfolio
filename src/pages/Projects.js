@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from "../components/Navbar";
-import Footer from "../components/Footer"
+// import Footer from "../components/Footer"
 import Container from 'react-bootstrap/Container'
 import Carousel from 'react-bootstrap/Carousel'
 import Image2 from "../images/burger.jpg"
@@ -12,7 +12,7 @@ import Image8 from "../images/workdayscheduler.png"
 
 function Projects() {
     return (
-        <div>
+        <div className="project-page">
             <Navbar />
             <br />
             <Container className="project-container">
@@ -73,7 +73,7 @@ function Projects() {
             <br />
             <br />
             <br />
-            <Footer />
+            {/* <Footer /> */}
         </div>
     )
 }

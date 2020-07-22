@@ -3,11 +3,11 @@ import Navbar from "../components/Navbar";
 import Jumbotron from 'react-bootstrap/Jumbotron'
 import Container from 'react-bootstrap/Container'
 
-class Contact extends React.Component {
+function Contact() {
 
-  render() {
+  
     return (
-      <div>
+      <div className="contact-page">
         <Navbar />
         <br />
 
@@ -32,7 +32,7 @@ class Contact extends React.Component {
 
       </div>
     )
-  }
+  
 
 }
 
