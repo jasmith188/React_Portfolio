@@ -24,7 +24,7 @@ function Contact() {
             <p />Linkedin:
           <a href="https://www.linkedin.com/in/jamessmith812/"> linkedin.com/in/jamessmith812</a>
             <br />
-            <p />Resume (Google Docs):
+            <p />Resume:
           <a href="https://documentcloud.adobe.com/link/review?uri=urn:aaid:scds:US:6ee41601-8e96-4dc0-8708-877c0c74d3fc"> James Smith's Resume (PDF)</a>
             <br />
           </Container>
