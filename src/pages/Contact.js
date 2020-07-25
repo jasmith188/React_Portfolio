@@ -22,10 +22,10 @@ function Contact() {
           <a href="https://github.com/jasmith188"> github.com/jasmith188</a>
             <br />
             <p />Linkedin:
-          <a href="https://www.linkedin.com/in/james-smith-286a41112/"> linkedin.com/in/james-smith-286a41112</a>
+          <a href="https://www.linkedin.com/in/jamessmith812/"> linkedin.com/in/jamessmith812</a>
             <br />
             <p />Resume (Google Docs):
-          <a href="https://docs.google.com/document/d/1oWnfgtGphkfh5Kp-JtA4l4lrFDkzgU_4cAisA6_grbE/edit?usp=sharing"> Jimmy Smith's Resume (Google Docs)</a>
+          <a href="https://documentcloud.adobe.com/link/review?uri=urn:aaid:scds:US:6ee41601-8e96-4dc0-8708-877c0c74d3fc"> James Smith's Resume (PDF)</a>
             <br />
           </Container>
         </Jumbotron>

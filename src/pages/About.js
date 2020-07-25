@@ -19,7 +19,7 @@ function About() {
                 <Row>
                     <Col xs={12} >
                         <div className="about-text">
-                            Hello, my name is James Smith and I have recently recieved a Certificate in Full Stack Coding at the University of Central Florida. I have learned the fundamentals of different Languages and Applications used in front and back end development. I'm looking forward to contributing to my team's success by collaboratively creating different projects and applications.
+                            Hello, name is James Smith and I have recently recieved a Certificate in Full Stack Coding at the University of Central Florida. I have learned the fundamentals of different Languages and Applications used in front and back end development. I'm looking forward to contributing to my team's success by collaboratively creating different projects and applications.
                 </div>
                     </Col>
                 </Row>
