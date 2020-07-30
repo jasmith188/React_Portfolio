@@ -12,7 +12,7 @@ import { Row, Col, Container } from "react-bootstrap"
 
 function About() {
     return (
-        <div className="homepage">
+        <div className="homepage" id="about">
             <Navbar />
             <br />
             <Container className="top-container">

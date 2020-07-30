@@ -4,6 +4,7 @@ import Projects from "./pages/Projects";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Home from "./pages/Home";
+import Navbar from "./components/Navbar"
 // import NoMatch from "./pages/NoMatch";
 
 
@@ -13,9 +14,11 @@ class App extends React.Component {
     return (
 
 
-      <Router>
-        <div>
-          <Switch>
+     
+        <div className="App">
+          <Navbar />
+          
+          
             <Route exact path="/React_Portfolio" component={Home} />
             <Route exact path="/React_Portfolio/about" component={About} />
             <Route path="/React_Portfolio/projects" component={Projects} />
@@ -23,7 +26,7 @@ class App extends React.Component {
             {/* <Route component={NoMatch} /> */}
           </Switch>
         </div>
-      </Router>
+      
 
     );
   }

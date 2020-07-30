@@ -12,7 +12,7 @@ import Image8 from "../images/workdayscheduler.png"
 
 function Projects() {
     return (
-        <div className="project-page">
+        <div className="project-page" id="projects">
             <Navbar />
             <br />
             <Container className="project-container">

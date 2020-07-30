@@ -7,7 +7,7 @@ function Contact() {
 
   
     return (
-      <div className="contact-page">
+      <div className="contact-page" id="contact">
         <Navbar />
         <br />
 
