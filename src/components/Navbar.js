@@ -1,47 +1,26 @@
-import React, { Component } from 'react';
-import { Link } from "react-scroll";
+import React from 'react';
+import { Link } from "react-router-dom";
 
-class Navbar extends Component {
-    state = {};
-    render() {
-        return (
-            <div className="navbar">
-                <Link
-                    activeClass="active"
-                    to="jamessmith"
-                    spy={true}
-                    smooth={true}
-                    offset={-70}
-                    duration={500}
-                >James Smith</Link>
-                <Link
-                    activeClass="active"
-                    to="about"
-                    spy={true}
-                    smooth={true}
-                    offset={-70}
-                    duration={500}
-                >About</Link>
-                <Link
-                    activeClass="active"
-                    to="projects"
-                    spy={true}
-                    smooth={true}
-                    offset={-70}
-                    duration={500}
-                >Projects</Link>
-                <Link
-                    activeClass="active"
-                    to="contact"
-                    spy={true}
-                    smooth={true}
-                    offset={-70}
-                    duration={500}
-                >Contact</Link>
-            </div>
-
-        )
-    }
-}
+function Navbar() {
+  return (
+    <nav className="navbar">
+    <Link className="nav-link h1 name" to="/React_Portfolio">
+        <span id="nav">Home</span>
+    </Link>
+    {/* <!--Nav Items have been linked--> */}
+    <ul className="nav">
+        <li className="nav-item">
+            <Link className="nav-link" to="/React_Portfolio/about"><span id="nav">About</span></Link>
+        </li>
+        <li className="nav-item">
+            <Link className="nav-link" to="/React_Portfolio/projects"> <span  id="nav">Projects</span></Link>
+        </li>
+        <li className="nav-item">
+            <Link className="nav-link" to="/React_Portfolio/contact"><span  id="nav">Contact</span></Link>
+        </li>
+ </ul>
+</nav>
+  )
+} 
 
 export default Navbar;
