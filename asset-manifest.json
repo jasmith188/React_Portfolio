@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/React_Portfolio/static/css/main.90b33ad1.chunk.css",
-    "main.js": "/React_Portfolio/static/js/main.8009403b.chunk.js",
-    "main.js.map": "/React_Portfolio/static/js/main.8009403b.chunk.js.map",
+    "main.css": "/React_Portfolio/static/css/main.73e26926.chunk.css",
+    "main.js": "/React_Portfolio/static/js/main.38a6540e.chunk.js",
+    "main.js.map": "/React_Portfolio/static/js/main.38a6540e.chunk.js.map",
     "runtime-main.js": "/React_Portfolio/static/js/runtime-main.e3c7ef78.js",
     "runtime-main.js.map": "/React_Portfolio/static/js/runtime-main.e3c7ef78.js.map",
-    "static/js/2.f1a839ee.chunk.js": "/React_Portfolio/static/js/2.f1a839ee.chunk.js",
-    "static/js/2.f1a839ee.chunk.js.map": "/React_Portfolio/static/js/2.f1a839ee.chunk.js.map",
+    "static/js/2.a9fea0d3.chunk.js": "/React_Portfolio/static/js/2.a9fea0d3.chunk.js",
+    "static/js/2.a9fea0d3.chunk.js.map": "/React_Portfolio/static/js/2.a9fea0d3.chunk.js.map",
     "index.html": "/React_Portfolio/index.html",
-    "precache-manifest.52a071f0d704788d39f34e75d32111dc.js": "/React_Portfolio/precache-manifest.52a071f0d704788d39f34e75d32111dc.js",
+    "precache-manifest.ab61e784cc6c6eb5ca500386fa563b22.js": "/React_Portfolio/precache-manifest.ab61e784cc6c6eb5ca500386fa563b22.js",
     "service-worker.js": "/React_Portfolio/service-worker.js",
-    "static/css/main.90b33ad1.chunk.css.map": "/React_Portfolio/static/css/main.90b33ad1.chunk.css.map",
-    "static/js/2.f1a839ee.chunk.js.LICENSE.txt": "/React_Portfolio/static/js/2.f1a839ee.chunk.js.LICENSE.txt",
+    "static/css/main.73e26926.chunk.css.map": "/React_Portfolio/static/css/main.73e26926.chunk.css.map",
+    "static/js/2.a9fea0d3.chunk.js.LICENSE.txt": "/React_Portfolio/static/js/2.a9fea0d3.chunk.js.LICENSE.txt",
     "static/media/badge.png": "/React_Portfolio/static/media/badge.f268d4cb.png",
     "static/media/biopicture.jpeg": "/React_Portfolio/static/media/biopicture.c693abaf.jpeg",
     "static/media/burger.jpg": "/React_Portfolio/static/media/burger.31c8821f.jpg",
@@ -24,8 +24,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.e3c7ef78.js",
-    "static/js/2.f1a839ee.chunk.js",
-    "static/css/main.90b33ad1.chunk.css",
-    "static/js/main.8009403b.chunk.js"
+    "static/js/2.a9fea0d3.chunk.js",
+    "static/css/main.73e26926.chunk.css",
+    "static/js/main.38a6540e.chunk.js"
   ]
 }
