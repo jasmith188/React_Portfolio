@@ -1,26 +1,53 @@
-import React from 'react';
-import { Link } from "react-router-dom";
+import React, { Component } from 'react';
+import { Link } from "react-scroll";
 
-function Navbar() {
-  return (
-    <nav className="navbar">
-    <Link className="nav-link h1 name" to="/React_Portfolio">
-        <span id="nav">Home</span>
-    </Link>
-    {/* <!--Nav Items have been linked--> */}
-    <ul className="nav">
-        <li className="nav-item">
-            <Link className="nav-link" to="/React_Portfolio/about"><span id="nav">About</span></Link>
-        </li>
-        <li className="nav-item">
-            <Link className="nav-link" to="/React_Portfolio/projects"> <span  id="nav">Projects</span></Link>
-        </li>
-        <li className="nav-item">
-            <Link className="nav-link" to="/React_Portfolio/contact"><span  id="nav">Contact</span></Link>
-        </li>
- </ul>
-</nav>
-  )
-} 
+export default class Navbar extends Component {
+    
+    render() {
+        return (
+            <nav className="navbar" id="navbar">
+                {/* <Link className="nav-link h1 name" to="/React_Portfolio">
+                    <span id="nav">James Smith</span>
+                </Link> */}
+                {/* <!--Nav Items have been linked--> */}
+              
+                    
+                        <Link
+                            activeClass="active"
+                            to="/React_Portfolio/about"
+                            spy={true}
+                            smooth={true}
+                            offset={-70}
+                            duration={500}
+                            
+                        >About</Link>
+                    
+                    
+                        <Link
+                            activeClass="active"
+                            spy={true}
+                            smooth={true}
+                            offset={-70}
+                            duration={1000}
+                            to="/React_Portfolio/projects"
+                            activeClassName="selected"
+                        >Projects</Link>
+                  
+                        <Link
+                            activeClass="active"
+                            spy={true}
+                            smooth={true}
+                            offset={-70}
+                            duration={1000}
+                            to="/React_Portfolio/contact"
+                            activeClassName="selected"
+                        >Contact</Link>
+                   
+            
+            </nav>
+        )
+    }
+}
 
-export default Navbar;
+
+
