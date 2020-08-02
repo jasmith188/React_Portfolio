@@ -2,48 +2,56 @@ import React, { Component } from 'react';
 import { Link } from "react-scroll";
 
 export default class Navbar extends Component {
-    
+
     render() {
         return (
-            <nav className="navbar" id="navbar">
-                {/* <Link className="nav-link h1 name" to="/React_Portfolio">
-                    <span id="nav">James Smith</span>
-                </Link> */}
+            <nav className="navbar">
+                <Link
+                    activeClass="active"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={1000}
+                    to="home"
+                    activeClassName="selected">
+                    James Smith
+                </Link>
                 {/* <!--Nav Items have been linked--> */}
-              
-                    
-                        <Link
-                            activeClass="active"
-                            to="/React_Portfolio/about"
-                            spy={true}
-                            smooth={true}
-                            offset={-70}
-                            duration={500}
-                            
-                        >About</Link>
-                    
-                    
+                <ul className="nav">
+                    <li className="nav-item nav-link">
                         <Link
                             activeClass="active"
                             spy={true}
                             smooth={true}
                             offset={-70}
                             duration={1000}
-                            to="/React_Portfolio/projects"
+                            to="about"
+                            activeClassName="selected"
+                        >About</Link>
+                    </li>
+                    <li className="nav-item nav-link">
+                        <Link
+                            activeClass="active"
+                            spy={true}
+                            smooth={true}
+                            offset={-70}
+                            duration={1000}
+                            to="projects"
                             activeClassName="selected"
                         >Projects</Link>
-                  
+                    </li>
+                    <li className="nav-item nav-link">
                         <Link
                             activeClass="active"
                             spy={true}
                             smooth={true}
                             offset={-70}
                             duration={1000}
-                            to="/React_Portfolio/contact"
+                            to="contact"
                             activeClassName="selected"
                         >Contact</Link>
-                   
-            
+                    </li>
+                </ul>
             </nav>
         )
     }

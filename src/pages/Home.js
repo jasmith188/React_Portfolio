@@ -1,6 +1,5 @@
 import React from "react";
 import Jumbotron from 'react-bootstrap/Jumbotron'
-import Navbar from "../components/Navbar"
 import Image from 'react-bootstrap/Image'
 import Image5 from "../images/something.jpg"
 import { Row, Col, Container } from "react-bootstrap";
@@ -9,8 +8,8 @@ import { faLinkedin, faGithub, faTwitter, faInstagram } from "@fortawesome/free-
 
 function Home() {
     return (
-        <div className="home-body">
-            <Navbar />
+        <div className="home-body" id="home">
+            
             <Jumbotron fluid>
                 <Container>
                     <div className="typewriter">

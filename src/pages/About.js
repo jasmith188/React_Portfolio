@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import "../App.css"
-import Navbar from "../components/Navbar";
 // import Footer from "../components/Footer";
 import Image3 from "../images/biopicture.jpeg"
 import Image2 from "../images/plating.jpeg"
@@ -13,8 +12,7 @@ import { Row, Col, Container } from "react-bootstrap"
 class About extends Component {
     render() {
         return (
-            <div className="about-section" id="/React_Portfolio/about">
-                <Navbar />
+            <div className="about-section" id="about">
                 <br />
                 <Container className="top-container">
                     <Row>

@@ -1,5 +1,4 @@
 import React from 'react';
-import Navbar from "../components/Navbar";
 // import Footer from "../components/Footer"
 import Container from 'react-bootstrap/Container'
 import Carousel from 'react-bootstrap/Carousel'
@@ -13,7 +12,6 @@ import Image8 from "../images/workdayscheduler.png"
 function Projects() {
     return (
         <div className="project-page" id="projects">
-            <Navbar />
             <br />
             <Container className="project-container">
                 <Carousel>

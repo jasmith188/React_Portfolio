@@ -1,5 +1,4 @@
 import React from "react";
-import Navbar from "../components/Navbar";
 import Jumbotron from 'react-bootstrap/Jumbotron'
 import Container from 'react-bootstrap/Container'
 
@@ -8,7 +7,6 @@ function Contact() {
   
     return (
       <div className="contact-page" id="contact">
-        <Navbar />
         <br />
 
         <Jumbotron>
