@@ -1,6 +1,8 @@
 import React from "react";
 import Jumbotron from 'react-bootstrap/Jumbotron'
 import Container from 'react-bootstrap/Container'
+import Image4 from "../images/badge.png"
+import Image from 'react-bootstrap/Image'
 
 function Contact() {
 
@@ -26,6 +28,14 @@ function Contact() {
         </Container>
       </Jumbotron>
 
+      <a
+        href="https://api.badgr.io/public/assertions/J4qMOUgvQyW5baLRTU7I2Q?identity__email=jasmith.188%40gmail.com"
+        className="badgr">
+        <Image src={Image4} rounded alt={"Error"} height="300px" width="300px" />
+      </a>
+      <br />
+      <br />
+      <br />
     </div>
   )
 

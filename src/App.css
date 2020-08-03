@@ -205,8 +205,12 @@ text-align: center;
   margin-left: 60px;
 }
 
-.social-home {
+.social-home-top {
   margin-bottom: 70px;
+}
+.social-home-bottom {
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .title {
@@ -314,6 +318,7 @@ h3.title {
   text-align: center;
   color: white;
   /* background-image: url("./images/something.jpg") !important; */
+  
   
 }
 

@@ -4,7 +4,6 @@ import "../App.css"
 import Image3 from "../images/biopicture.jpeg"
 import Image2 from "../images/plating.jpeg"
 import Image from 'react-bootstrap/Image'
-import Image4 from "../images/badge.png"
 // import Image5 from "../images/something.jpg"
 // import Jumbotron from 'react-bootstrap/Jumbotron'
 import { Row, Col, Container } from "react-bootstrap"
@@ -32,11 +31,7 @@ class About extends Component {
 
                 <Row>
                     <Col className="badge" xs={12}>
-                        <a
-                            href="https://api.badgr.io/public/assertions/J4qMOUgvQyW5baLRTU7I2Q?identity__email=jasmith.188%40gmail.com"
-                            className="badgr">
-                            <Image src={Image4} rounded alt={"Error"} height="300px" width="300px" />
-                        </a>
+                        
                     </Col>
                 </Row>
                 {/* <Jumbotron>

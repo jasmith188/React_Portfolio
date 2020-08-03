@@ -9,7 +9,7 @@ import "../App.css"
 function Footer() {
     return (
         <div className="footer">
-        <Container className="social-home">
+        <Container className="social-home-bottom">
 
           <a
             href="https://github.com/jasmith188"

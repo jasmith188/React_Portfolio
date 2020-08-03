@@ -29,7 +29,7 @@ function Home() {
             </Jumbotron>
 
             <div className="footer">
-        <Container className="social-home">
+        <Container className="social-home-top">
 
           <a
             href="https://github.com/jasmith188"
