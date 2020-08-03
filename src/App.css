@@ -2,12 +2,19 @@ body {
   background-color: black;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
+.navbar-toggler {
+  float: right
+}
   
 .navbar-brand {
   color: white;
   font-size: 30px;
   font-weight: bold;
+  padding-left: 40px;
+}
+
+.nav-name {
+  padding-left: 50px;
 }
 
 a.nav-name {
@@ -15,23 +22,27 @@ a.nav-name {
   font-size: 20px;
   font-weight: bold;
   padding-right: 10px;
+  padding-left: 50px;
 }
 a.nav-about {
   color: white;
   font-size: 20px;
   font-weight: bold;
   padding-right: 10px;
+  padding-left: 50px;
 }
 a.nav-projects {
   color: white;
   font-size: 20px;
   font-weight: bold;
   padding-right: 10px;
+  padding-left: 50px;
 }
 a.nav-contact {
   color: white;
   font-size: 20px;
   font-weight: bold;
+  padding-left: 50px;
 }
 
 

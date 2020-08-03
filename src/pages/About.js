@@ -6,14 +6,14 @@ import Image2 from "../images/plating.jpeg"
 import Image from 'react-bootstrap/Image'
 import Image4 from "../images/badge.png"
 // import Image5 from "../images/something.jpg"
-import Jumbotron from 'react-bootstrap/Jumbotron'
+// import Jumbotron from 'react-bootstrap/Jumbotron'
 import { Row, Col, Container } from "react-bootstrap"
 
 class About extends Component {
     render() {
         return (
             <div className="about-section" id="about">
-                <br />
+                
                 <Container className="top-container">
                     <Row>
                         <Col xs={12} >
@@ -39,7 +39,7 @@ class About extends Component {
                         </a>
                     </Col>
                 </Row>
-                <Jumbotron>
+                {/* <Jumbotron>
                     <Container className="skills-container">
                         <h1 className="skills">Skills</h1>
                         <Row>
@@ -67,7 +67,7 @@ class About extends Component {
                             </Col>
                         </Row>
                     </Container>
-                </Jumbotron>
+                </Jumbotron> */}
                 <Container className="bottom-container">
                     <Row>
                         <Col xs={12} >
