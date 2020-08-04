@@ -23,7 +23,7 @@ function Contact() {
           <a href="https://www.linkedin.com/in/jamessmith812/"> linkedin.com/in/jamessmith812</a>
           <br />
           <p />Resume:
-          <a href="https://documentcloud.adobe.com/link/review?uri=urn:aaid:scds:US:6ee41601-8e96-4dc0-8708-877c0c74d3fc"> James Smith's Resume (PDF)</a>
+          <a href="https://documentcloud.adobe.com/link/review?uri=urn:aaid:scds:US:8b773715-0501-42b2-b2a3-53c33f80a994"> James Smith's Resume (PDF)</a>
           <br />
         </Container>
       </Jumbotron>
@@ -38,10 +38,6 @@ function Contact() {
       <br />
     </div>
   )
-
-
 }
-
-
 
 export default Contact;
