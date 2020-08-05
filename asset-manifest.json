@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/React_Portfolio/static/css/main.de62d701.chunk.css",
-    "main.js": "/React_Portfolio/static/js/main.87aa983f.chunk.js",
-    "main.js.map": "/React_Portfolio/static/js/main.87aa983f.chunk.js.map",
+    "main.css": "/React_Portfolio/static/css/main.8075fb59.chunk.css",
+    "main.js": "/React_Portfolio/static/js/main.74b41c23.chunk.js",
+    "main.js.map": "/React_Portfolio/static/js/main.74b41c23.chunk.js.map",
     "runtime-main.js": "/React_Portfolio/static/js/runtime-main.e3c7ef78.js",
     "runtime-main.js.map": "/React_Portfolio/static/js/runtime-main.e3c7ef78.js.map",
     "static/js/2.c5615b27.chunk.js": "/React_Portfolio/static/js/2.c5615b27.chunk.js",
     "static/js/2.c5615b27.chunk.js.map": "/React_Portfolio/static/js/2.c5615b27.chunk.js.map",
     "index.html": "/React_Portfolio/index.html",
-    "precache-manifest.f201ada47055939b1a7dd74b3634b5f1.js": "/React_Portfolio/precache-manifest.f201ada47055939b1a7dd74b3634b5f1.js",
+    "precache-manifest.a28e0520e90e4cc87990f349f32bd6d9.js": "/React_Portfolio/precache-manifest.a28e0520e90e4cc87990f349f32bd6d9.js",
     "service-worker.js": "/React_Portfolio/service-worker.js",
-    "static/css/main.de62d701.chunk.css.map": "/React_Portfolio/static/css/main.de62d701.chunk.css.map",
+    "static/css/main.8075fb59.chunk.css.map": "/React_Portfolio/static/css/main.8075fb59.chunk.css.map",
     "static/js/2.c5615b27.chunk.js.LICENSE.txt": "/React_Portfolio/static/js/2.c5615b27.chunk.js.LICENSE.txt",
     "static/media/badge.png": "/React_Portfolio/static/media/badge.4d416419.png",
     "static/media/biopicture.jpeg": "/React_Portfolio/static/media/biopicture.c693abaf.jpeg",
@@ -19,14 +19,14 @@
     "static/media/infodoselogin.jpg": "/React_Portfolio/static/media/infodoselogin.f5378735.jpg",
     "static/media/plating.jpeg": "/React_Portfolio/static/media/plating.383dca6d.jpeg",
     "static/media/something.jpg": "/React_Portfolio/static/media/something.fdc3fd43.jpg",
-    "static/media/suntide.png": "/React_Portfolio/static/media/suntide.5f55f1b2.png",
+    "static/media/suntide.png": "/React_Portfolio/static/media/suntide.73e56f40.png",
     "static/media/vacationmakers.png": "/React_Portfolio/static/media/vacationmakers.2ff19569.png",
     "static/media/workdayscheduler.png": "/React_Portfolio/static/media/workdayscheduler.977bbfd5.png"
   },
   "entrypoints": [
     "static/js/runtime-main.e3c7ef78.js",
     "static/js/2.c5615b27.chunk.js",
-    "static/css/main.de62d701.chunk.css",
-    "static/js/main.87aa983f.chunk.js"
+    "static/css/main.8075fb59.chunk.css",
+    "static/js/main.74b41c23.chunk.js"
   ]
 }
