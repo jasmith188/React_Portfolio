@@ -1,5 +1,5 @@
 body {
-  background-color: black;
+  background-color: black !important;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .navbar-toggler {
@@ -14,35 +14,32 @@ body {
 }
 
 .nav-name {
-  padding-left: 50px;
+  color: white !important;
 }
 
-a.nav-name {
+.nav-name {
   color: white;
   font-size: 20px;
   font-weight: bold;
-  padding-right: 10px;
-  padding-left: 50px;
+  padding-left: 20px;
 }
-a.nav-about {
-  color: white;
+.nav-about {
+  color: white !important;
   font-size: 20px;
   font-weight: bold;
-  padding-right: 10px;
-  padding-left: 50px;
+  padding-left: 20px;
 }
-a.nav-projects {
-  color: white;
+.nav-projects {
+  color: white !important;
   font-size: 20px;
   font-weight: bold;
-  padding-right: 10px;
-  padding-left: 50px;
+  padding-left: 20px;
 }
-a.nav-contact {
-  color: white;
+.nav-contact {
+  color: white !important;
   font-size: 20px;
   font-weight: bold;
-  padding-left: 50px;
+  padding-left: 20px;
 }
 
 

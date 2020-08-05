@@ -26,13 +26,13 @@ function Projects() {
                             </a>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <img className="suntide" src={Image3} alt={"Error"} height="250px" width="450px" />
+                        <img className="weathertoday" src={Image3} alt={"Error"} height="300px" width="400px" />
 
                         <Carousel.Caption />
-                        <h3>Sun Tide</h3>
+                        <h3>WeatherToday</h3>
                         <p>In this application users can type a city and country andretrieve a current and 5 day forecast.</p>
-                        <a href="https://github.com/jasmith188/Sun-Tide/"
-                            className="blank_">Github Code</a> | <a href="https://jasmith188.github.io/Sun-Tide/" className="blank_">App
+                        <a href="https://github.com/jasmith188/WeatherToday/"
+                            className="blank_">Github Code</a> | <a href="https://jasmith188.github.io/WeatherToday/" className="blank_">App
                             </a>
 
                     </Carousel.Item>
