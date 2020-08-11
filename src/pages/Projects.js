@@ -16,6 +16,16 @@ function Projects() {
             <Container className="project-container">
                 <Carousel>
                     <Carousel.Item>
+                        <img className="weathertoday" src={Image3} alt={"Error"} height="300px" width="400px" />
+
+                        <Carousel.Caption />
+                        <h3>WeatherToday</h3>
+                        <p>In this application users want to know the current and 5-day weather for an exact location and retrieve it by typing in city and choosing a country</p>
+                        <a href="https://github.com/jasmith188/WeatherToday/"
+                            className="blank_">Github Code</a> | <a href="https://jasmith188.github.io/WeatherToday/" className="blank_">App
+                            </a>
+                    </Carousel.Item>
+                    <Carousel.Item>
                         <img className="burgerapp" src={Image2} alt={"Error"} height="250px" width="450px" />
                         <br />
                         <Carousel.Caption />
@@ -24,17 +34,6 @@ function Projects() {
                         <a href="https://github.com/jasmith188/Burger/"
                             className="blank_">Github Code</a> | <a href="https://mighty-plateau-81159.herokuapp.com/" className="blank_">App
                             </a>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img className="weathertoday" src={Image3} alt={"Error"} height="300px" width="400px" />
-
-                        <Carousel.Caption />
-                        <h3>WeatherToday</h3>
-                        <p>In this application users can type a city and country andretrieve a current and 5 day forecast.</p>
-                        <a href="https://github.com/jasmith188/WeatherToday/"
-                            className="blank_">Github Code</a> | <a href="https://jasmith188.github.io/WeatherToday/" className="blank_">App
-                            </a>
-
                     </Carousel.Item>
                     <Carousel.Item>
                         <img className="hopsgrapes" src={Image4} alt={"Error"} height="250px" width="450px" />
@@ -56,7 +55,7 @@ function Projects() {
                             target="blank_">Github Code</a> | <a href="https://lit-crag-01772.herokuapp.com"
                                 className="blank_">App</a>
                     </Carousel.Item>
-                    <Carousel.Item>
+                    {/* <Carousel.Item>
                         <img className="notetaker" src={Image8} alt={"Error"} height="250px" width="450px" />
 
                         <Carousel.Caption />
@@ -64,7 +63,7 @@ function Projects() {
                         <p>This is a project that allows users to write down their activities for the work day and it saves it for them.</p>
                         <a href="https://github.com/jasmith188/DayPlanner" target="blank">Github Code</a> | <a href="https://jasmith188.github.io/DayPlanner/" target="blank">App
                      </a>
-                    </Carousel.Item>
+                    </Carousel.Item> */}
                 </Carousel>
             </Container>
             <br />
