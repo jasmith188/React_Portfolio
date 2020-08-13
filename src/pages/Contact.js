@@ -1,43 +1,58 @@
 import React from "react";
-import Jumbotron from 'react-bootstrap/Jumbotron'
-import Container from 'react-bootstrap/Container'
-import Image4 from "../images/badge.png"
-import Image from 'react-bootstrap/Image'
+import Jumbotron from "react-bootstrap/Jumbotron";
+import Container from "react-bootstrap/Container";
+import Image4 from "../images/badge.png";
+import Image from "react-bootstrap/Image";
 
 function Contact() {
-
-
   return (
     <div className="contact-page" id="contact">
       <Jumbotron>
         <Container className="contact-container">
           <h1>Contact Me</h1>
           <p>Phone Number: (704) 909-8461</p>
-          <p />Email Me:
+          <p />
+          Email Me:
           <a href="mailto:jasmith188@gmail.com"> jasmith.188@gmail.com</a>
           <br />
-          <p />Github:
+          <p />
+          Github:
           <a href="https://github.com/jasmith188"> github.com/jasmith188</a>
           <br />
-          <p />Linkedin:
-          <a href="https://www.linkedin.com/in/jamessmith812/"> linkedin.com/in/jamessmith812</a>
+          <p />
+          Linkedin:
+          <a href="https://www.linkedin.com/in/jamessmith812/">
+            {" "}
+            linkedin.com/in/jamessmith812
+          </a>
           <br />
-          <p />Resume:
-          <a href="https://documentcloud.adobe.com/link/review?uri=urn:aaid:scds:US:8b773715-0501-42b2-b2a3-53c33f80a994"> James Smith's Resume (PDF)</a>
+          <p />
+          Resume:
+          <a href="https://documentcloud.adobe.com/link/review?uri=urn:aaid:scds:US:5751e841-0449-4830-aeb5-62ab60f282fc">
+            {" "}
+            James Smith's Resume (PDF)
+          </a>
           <br />
         </Container>
       </Jumbotron>
 
       <a
         href="https://api.badgr.io/public/assertions/J4qMOUgvQyW5baLRTU7I2Q?identity__email=jasmith.188%40gmail.com"
-        className="badgr">
-        <Image src={Image4} rounded alt={"Error"} height="300px" width="300px" />
+        className="badgr"
+      >
+        <Image
+          src={Image4}
+          rounded
+          alt={"Error"}
+          height="300px"
+          width="300px"
+        />
       </a>
       <br />
       <br />
       <br />
     </div>
-  )
+  );
 }
 
 export default Contact;
