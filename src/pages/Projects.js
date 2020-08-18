@@ -1,11 +1,11 @@
-import React from "react";
+import React from 'react';
 // import Footer from "../components/Footer"
-import Container from "react-bootstrap/Container";
-import Carousel from "react-bootstrap/Carousel";
-import Image2 from "../images/burger.jpg";
-import Image3 from "../images/suntide.png";
-import Image4 from "../images/vacationmakers.png";
-import Image6 from "../images/infodoselogin.jpg";
+import Container from 'react-bootstrap/Container';
+import Carousel from 'react-bootstrap/Carousel';
+import Image2 from '../images/burger.jpg';
+import Image3 from '../images/suntide.png';
+import Image4 from '../images/vacationmakers.png';
+import Image6 from '../images/infodoselogin.jpg';
 // import Image8 from "../images/workdayscheduler.png";
 
 function Projects() {
@@ -18,7 +18,7 @@ function Projects() {
             <img
               className="weathertoday"
               src={Image3}
-              alt={"Error"}
+              alt={'Error'}
               height="300px"
               width="400px"
             />
@@ -29,13 +29,17 @@ function Projects() {
               weather for an exact location and retrieve it by typing in city
               and choosing a country
             </p>
+            <p>
+              Utilized: HTML, CSS, JavaScript, React, MongoDB, Bootstrap, API
+              data
+            </p>
             <a
               href="https://github.com/jasmith188/WeatherToday/"
               className="blank_"
             >
               Github Code
-            </a>{" "}
-            |{" "}
+            </a>{' '}
+            |{' '}
             <a
               href="https://jasmith188.github.io/WeatherToday/"
               className="blank_"
@@ -47,7 +51,7 @@ function Projects() {
             <img
               className="burgerapp"
               src={Image2}
-              alt={"Error"}
+              alt={'Error'}
               height="250px"
               width="450px"
             />
@@ -58,10 +62,11 @@ function Projects() {
               This is a project that allows users to create and eat burgers.
               Click on the link and play with it.
             </p>
+            <p>Utilized: JavaScript, Express, React, MongoDB</p>
             <a href="https://github.com/jasmith188/Burger/" className="blank_">
               Github Code
-            </a>{" "}
-            |{" "}
+            </a>{' '}
+            |{' '}
             <a
               href="https://mighty-plateau-81159.herokuapp.com/"
               className="blank_"
@@ -73,7 +78,7 @@ function Projects() {
             <img
               className="hopsgrapes"
               src={Image4}
-              alt={"Error"}
+              alt={'Error'}
               height="250px"
               width="450px"
             />
@@ -85,13 +90,17 @@ function Projects() {
               with a budget. Choose your flight, hotel, restaurant or attraction
               and add it to your budget for your trip.
             </p>
+            <p>
+              • Utilized: HTML, CSS, JavaScript, MongoDB, Express, React,
+              Node.js, Bootstrap, Full MERN Application
+            </p>
             <a
               href="https://github.com/jasmith188/VacationMakers"
               target="blank_"
             >
               Github Code
-            </a>{" "}
-            |{" "}
+            </a>{' '}
+            |{' '}
             <a
               href="https://the-vacation-makers.herokuapp.com/"
               className="blank_"
@@ -103,7 +112,7 @@ function Projects() {
             <img
               className="infodose"
               src={Image6}
-              alt={"Error"}
+              alt={'Error'}
               height="250px"
               width="450px"
             />
@@ -114,10 +123,14 @@ function Projects() {
               overdoses by typing a location. Also the user can find a local
               police station nearby using geo-location.
             </p>
+            <p>
+              • Utilized: HTML, CSS, JavaScript, MySQL, Passport, Bootstrap,
+              large database
+            </p>
             <a href="https://github.com/jasmith188/infODose-1" target="blank_">
               Github Code
-            </a>{" "}
-            |{" "}
+            </a>{' '}
+            |{' '}
             <a href="https://lit-crag-01772.herokuapp.com" className="blank_">
               App
             </a>

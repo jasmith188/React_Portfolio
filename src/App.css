@@ -150,15 +150,32 @@ body {
 
 .skills-container {
   color: white;
-  padding-left: 200px;
-  padding-right: 200px;
-  background-image: url("./images/something.jpg");
-  text-align: center;
+  background-color: transparent;
+}
+
+.skills-card {
+  color: white;
+  background-color: transparent;
 }
 
 .languages-column {
-  text-align: justify;
   padding-left: 150px;
+  color: white;
+  background-color: transparent;
+}
+
+.applications-column {
+  padding-right: 150px;
+  
+}
+
+.card-header {
+  background-color: black !important;
+  font-size: 25px;
+}
+
+.list-group-item {
+  background-color: black !important;
 }
 .something {
 text-align: center;
@@ -233,7 +250,6 @@ text-align: center;
   color: black;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-
 .contact-container {
   text-align: center;
   color: white;
