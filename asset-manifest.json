@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/React_Portfolio/static/css/main.7d7edd5a.chunk.css",
-    "main.js": "/React_Portfolio/static/js/main.e7771799.chunk.js",
-    "main.js.map": "/React_Portfolio/static/js/main.e7771799.chunk.js.map",
+    "main.css": "/React_Portfolio/static/css/main.f3b3a1bd.chunk.css",
+    "main.js": "/React_Portfolio/static/js/main.9bae6954.chunk.js",
+    "main.js.map": "/React_Portfolio/static/js/main.9bae6954.chunk.js.map",
     "runtime-main.js": "/React_Portfolio/static/js/runtime-main.e3c7ef78.js",
     "runtime-main.js.map": "/React_Portfolio/static/js/runtime-main.e3c7ef78.js.map",
     "static/js/2.cd6c57d2.chunk.js": "/React_Portfolio/static/js/2.cd6c57d2.chunk.js",
     "static/js/2.cd6c57d2.chunk.js.map": "/React_Portfolio/static/js/2.cd6c57d2.chunk.js.map",
     "index.html": "/React_Portfolio/index.html",
-    "precache-manifest.9e796c993ac7a97abe6e25049f62dc51.js": "/React_Portfolio/precache-manifest.9e796c993ac7a97abe6e25049f62dc51.js",
+    "precache-manifest.bee7ed7dd1de3c0f1128437981ff81c0.js": "/React_Portfolio/precache-manifest.bee7ed7dd1de3c0f1128437981ff81c0.js",
     "service-worker.js": "/React_Portfolio/service-worker.js",
-    "static/css/main.7d7edd5a.chunk.css.map": "/React_Portfolio/static/css/main.7d7edd5a.chunk.css.map",
+    "static/css/main.f3b3a1bd.chunk.css.map": "/React_Portfolio/static/css/main.f3b3a1bd.chunk.css.map",
     "static/js/2.cd6c57d2.chunk.js.LICENSE.txt": "/React_Portfolio/static/js/2.cd6c57d2.chunk.js.LICENSE.txt",
     "static/media/badge.png": "/React_Portfolio/static/media/badge.4d416419.png",
     "static/media/biopicture.jpeg": "/React_Portfolio/static/media/biopicture.c693abaf.jpeg",
     "static/media/burger.jpg": "/React_Portfolio/static/media/burger.31c8821f.jpg",
-    "static/media/App.css": "/React_Portfolio/static/media/keyboard.520ca82a.jpg",
+    "static/media/App.css": "/React_Portfolio/static/media/codebackground.25f51426.jpg",
     "static/media/infodoselogin.jpg": "/React_Portfolio/static/media/infodoselogin.f5378735.jpg",
     "static/media/plating.jpeg": "/React_Portfolio/static/media/plating.383dca6d.jpeg",
     "static/media/something.jpg": "/React_Portfolio/static/media/something.fdc3fd43.jpg",
@@ -25,7 +25,7 @@
   "entrypoints": [
     "static/js/runtime-main.e3c7ef78.js",
     "static/js/2.cd6c57d2.chunk.js",
-    "static/css/main.7d7edd5a.chunk.css",
-    "static/js/main.e7771799.chunk.js"
+    "static/css/main.f3b3a1bd.chunk.css",
+    "static/js/main.9bae6954.chunk.js"
   ]
 }
