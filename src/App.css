@@ -260,7 +260,7 @@ text-align: center;
   background-color: transparent !important;
 }
 .contact-page {
-  background-image: url(./images/keyboard.jpg);
+  /* background-image: url(./images/keyboard.jpg); */
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
