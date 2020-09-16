@@ -8,7 +8,7 @@ function Header() {
       <Navbar
         style={{ backgroundColor: 'black' }}
         variant="dark"
-        expand="lg"
+        expand="sm"
         sticky="top"
         collapseOnSelect
       >
@@ -23,7 +23,8 @@ function Header() {
               offset={-70}
               duration={1000}
               to="home"
-              className="nav-name"
+              href='home'
+              className="nav-name ml-auto"
             >
               Home
             </Link>
@@ -34,7 +35,8 @@ function Header() {
               offset={-70}
               duration={1000}
               to="about"
-              className="nav-about"
+              href='about'
+              className="nav-about ml-auto"
             >
               About
             </Link>
@@ -45,10 +47,12 @@ function Header() {
               offset={-70}
               duration={1000}
               to="projects"
-              className="nav-projects"
+              href='projects'
+              className="nav-projects ml-auto"
             >
-              Projects
+                Projects
             </Link>
+            
             <Link
               activeClass="active"
               spy={true}
@@ -56,7 +60,8 @@ function Header() {
               offset={-70}
               duration={1000}
               to="contact"
-              className="nav-contact"
+              href='contact'
+              className="nav-contact ml-auto"
             >
               Contact
             </Link>
