@@ -1,5 +1,4 @@
 import React from "react";
-import Jumbotron from "react-bootstrap/Jumbotron";
 import Image from "react-bootstrap/Image";
 import Image5 from "../images/something.jpg";
 import { Row, Col, Container } from "react-bootstrap";
@@ -15,7 +14,7 @@ import "../App.css";
 function Home() {
   return (
     <div className="home-body" id="home">
-      <Jumbotron>
+      <div>
         <div className="typewriter">
           <p>Hello, I'm James Smith </p>
           <p className="typewriter">I'm a full-stack web developer</p>
@@ -32,7 +31,7 @@ function Home() {
             />
           </Col>
         </Row>
-      </Jumbotron>
+      </div>
 
       <div className="footer">
         <Container className="social-home-top">
