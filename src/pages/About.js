@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import '../App.css';
 // import Footer from "../components/Footer";
-import Image3 from '../images/biopicture.jpeg';
+import Image1 from '../images/biopicture.jpeg';
 import Image2 from '../images/plating.jpeg';
 import Image from 'react-bootstrap/Image';
 // import Image5 from "../images/something.jpg"
