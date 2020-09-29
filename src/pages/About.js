@@ -29,7 +29,7 @@ class About extends Component {
           <Row>
             <Col className="profile-pic" xs={12}>
               <Image
-                src={Image3}
+                src={Image1}
                 rounded
                 alt={'Error'}
                 height="350px"

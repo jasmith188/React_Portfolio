@@ -86,9 +86,7 @@ function Projects() {
             <Carousel.Caption />
             <h3>Vacation Makers</h3>
             <p>
-              This is an application that allows users to vacation to Florida
-              with a budget. Choose your flight, hotel, restaurant or attraction
-              and add it to your budget for your trip.
+              This is an application that allows users to vacation to Florida with a budget. Choose your flight, hotel, restaurant or attraction and add it to your budget for your trip.
             </p>
             <p>
               • Utilized: HTML, CSS, JavaScript, MongoDB, Express, React,
